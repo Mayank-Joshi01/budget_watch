@@ -1,110 +1,440 @@
 import { getDataStatus, getDatasetMetadata } from "@/lib/budget-data";
 
+const officialSources = [
+  {
+    name: "Ministry of Statistics and Programme Implementation (MoSPI)",
+    shortName: "MoSPI",
+    description:
+      "Official Government of India statistical data platform used for macroeconomic and socio-economic indicators.",
+    website: "https://esankhyiki.mospi.gov.in/",
+    datasets: [
+      "GDP and national accounts",
+      "State-wise GDP and related economic indicators",
+      "Consumer Price Index (CPI)",
+      "Inflation and item-wise price indices",
+    ],
+  },
+  {
+    name: "Periodic Labour Force Survey (PLFS)",
+    shortName: "PLFS",
+    description:
+      "Official labour-market statistics published by MoSPI and used to analyze employment, unemployment and labour-force indicators.",
+    website: "https://api.mospi.gov.in/api/plfs/",
+    datasets: [
+      "Employment and unemployment",
+      "Labour force participation",
+      "Worker population indicators",
+      "Male and female employment indicators",
+      "Rural and urban labour-market statistics",
+    ],
+  },
+  {
+    name: "Union Budget — Government of India",
+    shortName: "India Budget",
+    description:
+      "Official Union Budget portal maintained by the Government of India. Used for historical Union Budget allocations and expenditure information.",
+    website: "https://www.indiabudget.gov.in/previous_union_budget.php",
+    datasets: [
+      "Ministry-wise budget allocations",
+      "Department-wise allocations",
+      "Scheme and programme allocations",
+      "Historical Union Budgets",
+      "Government expenditure distribution",
+    ],
+  },
+  {
+    name: "Controller General of Accounts (CGA)",
+    shortName: "CGA",
+    description:
+      "Official Government of India source for Union Government accounts, receipts, expenditure and fiscal information.",
+    website: "https://cga.nic.in/",
+    datasets: [
+      "Government receipts",
+      "Tax revenue",
+      "Non-tax revenue",
+      "Government expenditure",
+      "Monthly accounts",
+      "Fiscal and budgetary information",
+    ],
+  },
+];
+
 export default function DataSourcesPage() {
   const datasets = getDatasetMetadata();
   const status = getDataStatus();
 
   return (
-    <main className="page-shell">
+    <main className="page-shell data-sources-page">
+      {/* Header */}
       <section className="page-intro">
         <div>
-          <p className="eyebrow">Methodology & provenance</p>
-          <h1>Data sources</h1>
+          <p className="eyebrow">Data, methodology & provenance</p>
+
+          <h1>Official data sources</h1>
+
           <p className="intro-copy">
-            What is included in this preview, and what still needs verification.
+            Budget Watch uses publicly available data published by official
+            Government of India institutions. We collect, normalize and
+            present this information in a more accessible form for analysis
+            and comparison.
           </p>
         </div>
       </section>
-      <article className="panel prose-panel">
-        {(status.errors.length > 0 || status.invalidRecords > 0) && (
-          <div className="data-warning" role="status">
-            <strong>Some local data needs attention.</strong>
-            {status.errors.map((error) => <p key={error}>{error}</p>)}
-            {status.invalidRecords > 0 && (
-              <p>{status.invalidRecords} invalid department or scheme record(s) were skipped.</p>
-            )}
+
+      {/* Trust banner */}
+      <section className="panel">
+        <div className="data-trust-header">
+          <div>
+            <p className="eyebrow">Data provenance</p>
+
+            <h2>
+              Built from official Government of India data
+            </h2>
+
+            <p>
+              The primary sources used by Budget Watch are government
+              ministries, departments and official statistical portals.
+              Local JSON files used by the application are processed
+              representations of these datasets and are not treated as
+              independent sources.
+            </p>
           </div>
-        )}
-        <h2>Files currently used</h2>
-        <p>
-          Budget Watch reads the updated local JSON datasets on the server.
-          Department totals and nested scheme allocations are normalized
-          separately; scheme rows are never added to department totals.
-        </p>
+
+          <div className="trust-badge">
+            <span className="trust-badge-dot" />
+            Official sources
+          </div>
+        </div>
+      </section>
+
+      {/* Official Sources */}
+      <section className="panel">
+        <div className="section-heading">
+          <p className="eyebrow">Primary sources</p>
+
+          <h2>Government data portals</h2>
+
+          <p>
+            These are the original public sources from which the platform
+            obtains its data.
+          </p>
+        </div>
+
+        <div className="source-grid">
+          {officialSources.map((source) => (
+            <article className="source-card" key={source.shortName}>
+              <div className="source-card-top">
+                <div>
+                  <span className="source-label">
+                    Official Government Source
+                  </span>
+
+                  <h3>{source.name}</h3>
+                </div>
+
+                <span className="source-acronym">
+                  {source.shortName}
+                </span>
+              </div>
+
+              <p>{source.description}</p>
+
+              <div className="source-data">
+                <strong>Data used for</strong>
+
+                <ul>
+                  {source.datasets.map((dataset) => (
+                    <li key={dataset}>{dataset}</li>
+                  ))}
+                </ul>
+              </div>
+
+              <a
+                href={source.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="source-link"
+              >
+                Visit official source
+                <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      {/* How data is used */}
+      <section className="panel">
+        <div className="section-heading">
+          <p className="eyebrow">Data pipeline</p>
+
+          <h2>How Budget Watch uses these sources</h2>
+
+          <p>
+            Budget Watch does not consider its local processed files to be
+            the original source of information. They are an application
+            layer used to make official datasets easier to query and
+            visualize.
+          </p>
+        </div>
+
+        <div className="pipeline-grid">
+          <div className="pipeline-step">
+            <span className="pipeline-number">01</span>
+
+            <h3>Official publication</h3>
+
+            <p>
+              Government departments publish statistics, budgets, accounts
+              and economic indicators through their official portals and
+              APIs.
+            </p>
+          </div>
+
+          <div className="pipeline-step">
+            <span className="pipeline-number">02</span>
+
+            <h3>Data collection</h3>
+
+            <p>
+              Relevant datasets are collected from official APIs,
+              government portals and published budget/account documents.
+            </p>
+          </div>
+
+          <div className="pipeline-step">
+            <span className="pipeline-number">03</span>
+
+            <h3>Normalization</h3>
+
+            <p>
+              Data is cleaned and structured so that different years,
+              departments and indicators can be compared consistently.
+            </p>
+          </div>
+
+          <div className="pipeline-step">
+            <span className="pipeline-number">04</span>
+
+            <h3>Analysis & visualization</h3>
+
+            <p>
+              The processed data powers charts, comparisons, trends and
+              interactive analysis throughout Budget Watch.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Dataset mapping */}
+      <section className="panel">
+        <div className="section-heading">
+          <p className="eyebrow">Source mapping</p>
+
+          <h2>What data comes from where?</h2>
+
+          <p>
+            Each major section of Budget Watch is linked to the government
+            source responsible for publishing the underlying information.
+          </p>
+        </div>
+
         <div className="table-wrap">
           <table className="data-table">
             <thead>
               <tr>
-                <th scope="col">Financial year</th>
-                <th scope="col">Filename</th>
-                <th className="numeric" scope="col">Department records</th>
-                <th className="numeric" scope="col">Scheme records</th>
-                <th scope="col">Available data fields</th>
-                <th scope="col">Unit</th>
+                <th scope="col">Data area</th>
+                <th scope="col">Primary source</th>
+                <th scope="col">Information used</th>
               </tr>
             </thead>
+
             <tbody>
-              {datasets.map((dataset) => (
-                <tr key={dataset.filename}>
-                  <td>{dataset.year}</td>
-                  <td>{dataset.filename}</td>
-                  <td className="numeric">{dataset.recordCount}</td>
-                  <td className="numeric">{dataset.schemeCount}</td>
-                  <td>{dataset.availableFields.join(", ")}</td>
-                  <td>{dataset.unit}</td>
-                </tr>
-              ))}
-              {datasets.length === 0 && (
-                <tr>
-                  <td colSpan={6}>No valid financial-year files were found.</td>
-                </tr>
-              )}
+              <tr>
+                <td>
+                  <strong>Employment & unemployment</strong>
+                </td>
+
+                <td>
+                  Ministry of Statistics & Programme Implementation
+                  <br />
+                  <span className="muted">PLFS</span>
+                </td>
+
+                <td>
+                  Employment, unemployment, labour-force participation,
+                  worker indicators and male/female employment statistics.
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong>GDP & economic growth</strong>
+                </td>
+
+                <td>
+                  Ministry of Statistics & Programme Implementation
+                  <br />
+                  <span className="muted">MoSPI / e-Sankhyiki</span>
+                </td>
+
+                <td>
+                  GDP, national accounts, economic growth and state-wise
+                  economic indicators.
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong>Inflation & prices</strong>
+                </td>
+
+                <td>
+                  Ministry of Statistics & Programme Implementation
+                  <br />
+                  <span className="muted">CPI</span>
+                </td>
+
+                <td>
+                  CPI, inflation rates and price movements across
+                  consumption categories and items.
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong>Union Budget</strong>
+                </td>
+
+                <td>
+                  Government of India
+                  <br />
+                  <span className="muted">India Budget</span>
+                </td>
+
+                <td>
+                  Historical Union Budgets, ministry allocations,
+                  department allocations and scheme-level expenditure.
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <strong>Government revenue & accounts</strong>
+                </td>
+
+                <td>
+                  Controller General of Accounts
+                  <br />
+                  <span className="muted">CGA</span>
+                </td>
+
+                <td>
+                  Tax revenue, non-tax revenue, government receipts,
+                  expenditure and monthly government accounts.
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
+      </section>
+      {/* Transparency */}
+      <section className="panel">
+        <div className="section-heading">
+          <p className="eyebrow">Transparency</p>
 
-        <h2>Current preview dataset</h2>
+          <h2>About data reliability</h2>
+        </div>
+
+        <div className="transparency-grid">
+          <div>
+            <h3>Primary sources</h3>
+
+            <p>
+              Data is sourced from official Government of India ministries,
+              departments and public statistical portals wherever
+              available.
+            </p>
+          </div>
+
+          <div>
+            <h3>Processing</h3>
+
+            <p>
+              Some datasets are transformed into a structured format to
+              support faster queries, filtering and visualization.
+            </p>
+          </div>
+
+          <div>
+            <h3>Interpretation</h3>
+
+            <p>
+              Budget Watch does not alter the underlying meaning of the
+              published government statistics. Derived metrics are clearly
+              calculated from the source observations.
+            </p>
+          </div>
+
+          <div>
+            <h3>Limitations</h3>
+
+            <p>
+              Government datasets can be revised over time. Historical
+              values, definitions and classifications may therefore differ
+              between releases.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Source links */}
+      <section className="panel source-directory">
+        <div className="section-heading">
+          <p className="eyebrow">Verify the data</p>
+
+          <h2>Official source directory</h2>
+
+          <p>
+            Users can independently verify the underlying information
+            through the original government portals.
+          </p>
+        </div>
+
+        <div className="source-links">
+          {officialSources.map((source) => (
+            <a
+              key={source.shortName}
+              href={source.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="source-link-row"
+            >
+              <div>
+                <strong>{source.name}</strong>
+                <span>{source.website}</span>
+              </div>
+
+              <span aria-hidden="true">↗</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      {/* Footer note */}
+      <section className="data-provenance-footer">
         <p>
-          The department names, ministry names, totals, financial years, and
-          scheme allocations are loaded from these project JSON files. No
-          PostgreSQL connection is configured in this repository.
+          <strong>Budget Watch</strong> is an independent data
+          visualization and analysis project. It is not an official
+          Government of India website and is not affiliated with the
+          ministries, departments or agencies listed above.
         </p>
 
-        <h2>Coverage and limitations</h2>
-        <ul>
-          <li>The source files cover 2021–22 through 2026–27.</li>
-          <li>Each file provides ministry totals, department totals, and nested scheme allocations in ₹ crore; revenue and capital sub-totals are not included.</li>
-          <li>Department labels are normalized only for whitespace, trailing punctuation, and two explicit name changes; other differing labels are kept separate.</li>
-          <li>Because these source files provide no scheme identifier, scheme history is matched by exact normalized scheme name within its parent department. Renamed labels are kept separate instead of being fuzzily merged.</li>
-          <li>Repeated same-name scheme rows within one department and year are combined; missing scheme years remain unavailable. Negative source allocations are retained.</li>
-          <li>No official source URL, document title, publication date, or page metadata is present in the JSON.</li>
-        </ul>
-
-        <h2>Methodology</h2>
-        <ul>
-          <li>All listed amounts are interpreted as ₹ crore, as supplied.</li>
-          <li>Total allocation is the sum of listed department amounts.</li>
-          <li>Scheme-level aggregates use scheme rows only. They are never combined with parent department totals.</li>
-          <li>Median allocation is the middle value after sorting the listed amounts.</li>
-          <li>Department share is its allocation divided by the total of listed allocations.</li>
-          <li>Scheme share of department uses the same-year scheme allocation divided by the parent department&apos;s total; share of total uses the same-year government-wide sum of department totals.</li>
-          <li>Year-over-year change is (current − previous) ÷ previous × 100; it is not shown when the prior value is missing or zero.</li>
-          <li>CAGR is calculated from first to last available comparable values, annualized across the financial-year intervals.</li>
-          <li>Year-to-year variation is the standard deviation of valid annual percentage changes; it is descriptive, not a performance score.</li>
-        </ul>
         <p>
-          Changes in allocations alone do not indicate improved or worsened
-          performance, effectiveness, or outcomes.
+          Government of India sources remain the authoritative references
+          for the original statistics, budgets and accounts.
         </p>
-
-        <h2>Next step</h2>
-        <p>
-          `lib/budget-data.ts` normalizes these files and exposes the department
-          and scheme data-service functions used by pages and charts. The JSON
-          structure is the authoritative source currently available in this
-          repository; no backend schema or PostgreSQL API is present here.
-        </p>
-      </article>
+      </section>
     </main>
   );
 }

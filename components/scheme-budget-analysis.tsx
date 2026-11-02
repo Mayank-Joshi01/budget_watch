@@ -214,7 +214,11 @@ export function SchemeBudgetAnalysis({
                 tickFormatter={mode === "allocation" ? (value: number) => formatCroreCompact(value) : (value: number) => `${Number(value.toFixed(2))}%`}
                 width={mode === "allocation" ? 80 : 60}
               />
-              <Tooltip content={<SchemeTooltip />} />
+              <Tooltip
+                shared={false}
+                isAnimationActive={false}
+                content={<SchemeTooltip />}
+              />
               <Line
                 connectNulls={false}
                 dataKey={valueKey}

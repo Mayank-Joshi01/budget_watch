@@ -149,6 +149,8 @@ function GDPBarChart({
             tick={{ fontSize: 11 }}
           />
           <Tooltip
+            shared={false}
+            isAnimationActive={false}
             formatter={(value) => [
               Number(value).toLocaleString("en-IN"),
               valueLabel,
@@ -195,6 +197,8 @@ function GDPBarChart({
           }
         />
         <Tooltip
+          shared={false}
+          isAnimationActive={false}
           formatter={(value) => [
             percentage
               ? `${Number(value).toFixed(2)}%`
@@ -244,7 +248,7 @@ export function GDPDetailCharts() {
   const stateRequest = useGDPRequest({
     ...BASE_PARAMS,
     frequency_code: "1",
-    indicator_code: "23",
+    indicator_code: "5",
   });
   const growthRequest = useGDPRequest({
     ...BASE_PARAMS,
@@ -291,12 +295,24 @@ export function GDPDetailCharts() {
     growthYear || growthYears.at(-1) || "";
 
   const stateChartData = useMemo(() => {
-    const records = stateRequest.records
+    const recordsByStateYear = new Map<string, GDPRecord>();
+
+    stateRequest.records
       .filter(
         (record) =>
           (!effectiveStateYear || record.year === effectiveStateYear) &&
           (!selectedState || record.state === selectedState),
       )
+      .forEach((record) => {
+        const key = `${record.state ?? "Unknown state"}:${record.year}`;
+        const existing = recordsByStateYear.get(key);
+
+        if (!existing || numericValue(record[statePrice]) !== null) {
+          recordsByStateYear.set(key, record);
+        }
+      });
+
+    return [...recordsByStateYear.values()]
       .map((record) => ({
         label: record.state ?? "Unknown state",
         state: record.state ?? "Unknown state",
@@ -309,7 +325,6 @@ export function GDPDetailCharts() {
           record.value !== null,
       )
       .sort((first, second) => first.label.localeCompare(second.label));
-    return records;
   }, [
     selectedState,
     effectiveStateYear,

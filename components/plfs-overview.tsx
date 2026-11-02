@@ -16,6 +16,52 @@ import { getPLFSData } from "@/lib/api/plfs";
 import { useLanguage } from "@/lib/i18n/provider";
 import type { PLFSRecord } from "@/lib/types/plfs";
 
+function PLFSOverviewTooltip({
+  active,
+  payload,
+}: {
+  active?: boolean;
+  payload?: Array<{
+    dataKey?: string | number;
+    value?: number | string | null;
+    payload?: {
+      year?: string;
+    };
+  }>;
+}) {
+  const { t } = useLanguage();
+  const year = payload?.[0]?.payload?.year;
+
+  if (!active || !year || !payload?.length) {
+    return null;
+  }
+
+  return (
+    <div className="chart-tooltip plfs-overview-tooltip">
+      <strong>{`Financial Year: ${year}`}</strong>
+      {payload.map((point) => {
+        const label =
+          point.dataKey === "male"
+            ? t("Male")
+            : point.dataKey === "female"
+              ? t("Female")
+              : String(point.dataKey ?? "");
+
+        return (
+          <div className="chart-tooltip-row" key={String(point.dataKey)}>
+            <span>{label}</span>
+            <strong>
+              {point.value === null || point.value === undefined
+                ? "—"
+                : `${Number(point.value).toFixed(2)}%`}
+            </strong>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 export default function PLFSOverviewChart() {
   const { t } = useLanguage();
 
@@ -190,31 +236,8 @@ export default function PLFSOverviewChart() {
                 />
 
                 <Tooltip
-                  shared
-                  contentStyle={{
-                    borderRadius: 10,
-                    border: "1px solid var(--border)",
-                    background: "var(--background)",
-                    padding: "12px 16px",
-                  }}
-                  labelStyle={{
-                    fontSize: 14,
-                    fontWeight: 600,
-                    marginBottom: 8,
-                  }}
-                  labelFormatter={(label) =>
-                    `Financial Year: ${label}`
-                  }
-                  formatter={(value, name) => [
-                    value === null || value === undefined
-                      ? "—"
-                      : `${Number(value).toFixed(2)}%`,
-                    name === "male"
-                      ? t("Male")
-                      : name === "female"
-                        ? t("Female")
-                        : String(name),
-                  ]}
+                  isAnimationActive={false}
+                  content={<PLFSOverviewTooltip />}
                 />
 
                 <Line

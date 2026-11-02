@@ -134,7 +134,11 @@ export function TotalBudgetTimeline({
                 tickFormatter={(value: number) => formatCroreCompact(value)}
                 width={80}
               />
-              <Tooltip content={<ChartTooltip />} />
+              <Tooltip
+                shared={false}
+                isAnimationActive={false}
+                content={<ChartTooltip />}
+              />
               <Line
                 dataKey="total"
                 name={t("Total allocation")}
@@ -474,6 +478,8 @@ export function DepartmentHistoryChart({
                   width={mode === "allocation" ? 80 : 56}
                 />
                 <Tooltip
+                  shared={false}
+                  isAnimationActive={false}
                   cursor={false}
                   content={<DepartmentHistoryTooltip mode={mode} />}
                 />
@@ -668,7 +674,11 @@ export function BudgetChangeChart({
                 tickLine={false}
                 tick={{ fill: "#45504a", fontSize: 10 }}
               />
-              <Tooltip content={<ChartTooltip />} />
+              <Tooltip
+                shared={false}
+                isAnimationActive={false}
+                content={<ChartTooltip />}
+              />
               <Bar
                 dataKey={metric === "amount" ? "amountChange" : "percentageChange"}
                 name={t(metric === "amount" ? "Absolute change" : "Percentage change")}
@@ -737,7 +747,7 @@ export function BudgetDistributionHistogram({
             <CartesianGrid stroke="#e9ece7" strokeDasharray="3 4" vertical={false} />
             <XAxis dataKey="name" axisLine={false} tickLine={false} interval={0} tick={{ fontSize: 9 }} />
             <YAxis allowDecimals={false} axisLine={false} tickLine={false} />
-            <Tooltip />
+            <Tooltip shared={false} isAnimationActive={false} />
             <Bar dataKey="count" name={t("Departments")} fill="#6e937b" radius={[3, 3, 0, 0]}>
               <LabelList dataKey="count" position="top" style={{ fill: "#45504a", fontSize: 10 }} />
               {data.map((entry) => <Cell key={entry.name} />)}
@@ -917,7 +927,7 @@ export function DepartmentIndexedGrowthChart({
               <CartesianGrid stroke="#e9ece7" strokeDasharray="3 4" vertical={false} />
               <XAxis dataKey="year" axisLine={false} tickLine={false} />
               <YAxis axisLine={false} tickLine={false} width={50} />
-              <Tooltip />
+              <Tooltip shared={false} isAnimationActive={false} />
               <Legend />
               <Line
                 dataKey="departmentIndex"

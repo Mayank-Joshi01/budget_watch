@@ -266,7 +266,14 @@ export default function PLFSCharts() {
                 <CartesianGrid stroke="var(--chart-grid)" strokeDasharray="3 4" vertical={false} />
                 <XAxis dataKey="year" />
                 <PercentageAxis />
-                <Tooltip formatter={(value) => [`${Number(value).toFixed(2)}%`, t("Unemployment Rate")]} />
+                <Tooltip
+                  shared={false}
+                  isAnimationActive={false}
+                  formatter={(value) => [
+                    `${Number(value).toFixed(2)}%`,
+                    t("Unemployment Rate"),
+                  ]}
+                />
                 <Bar dataKey="value" fill="var(--accent)" radius={[5, 5, 0, 0]} isAnimationActive={false} />
               </BarChart>
             </ResponsiveContainer>
@@ -294,6 +301,7 @@ export default function PLFSCharts() {
           <>
             <div className="plfs-map-chart">
               <IndiaWprMap data={stateData} year={stateYear} />
+
             </div>
             <p className="plfs-insight">{stateInsight}</p>
           </>
@@ -323,7 +331,14 @@ export default function PLFSCharts() {
                   <CartesianGrid stroke="var(--chart-grid)" strokeDasharray="3 4" vertical={false} />
                   <XAxis dataKey="year" />
                   <PercentageAxis />
-                  <Tooltip formatter={(value, name) => [`${Number(value).toFixed(2)}%`, name === "male" ? t("Male") : t("Female")]} />
+                  <Tooltip
+                    shared={false}
+                    isAnimationActive={false}
+                    formatter={(value, name) => [
+                      `${Number(value).toFixed(2)}%`,
+                      name === "male" ? t("Male") : t("Female"),
+                    ]}
+                  />
                   <Line dataKey="male" name="male" stroke="#2563eb" strokeWidth={2.5} dot={{ r: 4 }} connectNulls={false} isAnimationActive={false} />
                   <Line dataKey="female" name="female" stroke="#db2777" strokeWidth={2.5} dot={{ r: 4 }} connectNulls={false} isAnimationActive={false} />
                 </LineChart>

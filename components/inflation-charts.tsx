@@ -57,6 +57,36 @@ function getMonthNumber(month: string): number {
   return 0;
 }
 
+function InflationTooltip({
+  active,
+  payload,
+}: {
+  active?: boolean;
+  payload?: Array<{
+    payload?: {
+      month?: string;
+      inflation?: number;
+    };
+  }>;
+}) {
+  const { t } = useLanguage();
+  const point = payload?.[0]?.payload;
+
+  if (!active || !point?.month || typeof point.inflation !== "number") {
+    return null;
+  }
+
+  return (
+    <div className="chart-tooltip inflation-chart-tooltip">
+      <strong>{point.month}</strong>
+      <div className="chart-tooltip-row">
+        <span>{t("Inflation")}</span>
+        <strong>{point.inflation.toFixed(2)}%</strong>
+      </div>
+    </div>
+  );
+}
+
 export default function InflationChart({
   variant,
   states = [],
@@ -272,15 +302,39 @@ export default function InflationChart({
               data={chartData}
               margin={{ top: 20, right: 20, left: 10, bottom: 10 }}
             >
-              <CartesianGrid strokeDasharray="3 3" vertical={false} />
-              <XAxis dataKey="month" tickFormatter={(month) => String(month).slice(0, 3)} />
-              <YAxis tickFormatter={(value) => `${value}%`} domain={["auto", "auto"]} />
+              <CartesianGrid
+                stroke="var(--chart-grid)"
+                strokeDasharray="3 3"
+                vertical={false}
+              />
+              <XAxis
+                dataKey="month"
+                axisLine={{ stroke: "var(--chart-axis)" }}
+                tickLine={false}
+                tick={{
+                  fill: "var(--text-secondary)",
+                  fontSize: 12,
+                }}
+                tickFormatter={(month) => String(month).slice(0, 3)}
+              />
+              <YAxis
+                axisLine={{ stroke: "var(--chart-axis)" }}
+                tickLine={false}
+                tick={{
+                  fill: "var(--text-secondary)",
+                  fontSize: 12,
+                }}
+                tickFormatter={(value) => `${value}%`}
+                domain={["auto", "auto"]}
+              />
               <Tooltip
-
-                formatter={(value) => [
-                  `${Number(value).toFixed(2)}%`,
-                  t("Inflation"),
-                ]}
+                content={<InflationTooltip />}
+                shared={false}
+                isAnimationActive={false}
+                cursor={{
+                  stroke: "var(--chart-axis)",
+                  strokeWidth: 1,
+                }}
               />
               <Line
                 type="monotone"

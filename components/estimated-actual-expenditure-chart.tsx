@@ -2,11 +2,10 @@
 
 import { useState } from "react";
 import {
-  Bar,
-  BarChart,
   CartesianGrid,
-  Cell,
   Legend,
+  Line,
+  LineChart,
   ReferenceLine,
   ResponsiveContainer,
   Tooltip,
@@ -121,7 +120,7 @@ export function EstimatedActualExpenditureChart({
       </div>
       <div className="chart-frame estimated-actual-chart-frame">
         <ResponsiveContainer width="100%" height="100%">
-          <BarChart
+          <LineChart
             data={observations}
             margin={{ top: 12, right: 12, bottom: 8, left: 8 }}
           >
@@ -152,6 +151,7 @@ export function EstimatedActualExpenditureChart({
               width={82}
             />
             <Tooltip
+              isAnimationActive={false}
               content={<ExpenditureTooltip />}
               cursor={{ fill: "var(--surface-hover)", opacity: 0.55 }}
             />
@@ -191,51 +191,48 @@ export function EstimatedActualExpenditureChart({
               )}
             />
             {isVarianceView ? (
-              <>
-                <ReferenceLine
-                  y={0}
-                  stroke="var(--chart-axis)"
-                  strokeDasharray="4 4"
-                />
-                <Bar
-                  dataKey="variancePercent"
-                  name={t("Variance %")}
-                  radius={[4, 4, 0, 0]}
-                  isAnimationActive={false}
-                >
-                  {observations.map((observation) => (
-                    <Cell
-                      key={observation.financialYear}
-                      fill={
-                        observation.variancePercent === null
-                          ? "var(--chart-neutral)"
-                          : observation.variancePercent >= 0
-                            ? "var(--positive)"
-                            : "var(--negative)"
-                      }
-                    />
-                  ))}
-                </Bar>
-              </>
+              <Line
+                dataKey="variancePercent"
+                name={t("Variance %")}
+                stroke="var(--positive)"
+                strokeWidth={2.5}
+                dot={{ r: 4, fill: "var(--positive)" }}
+                activeDot={{ r: 6 }}
+                connectNulls={false}
+                isAnimationActive={false}
+              />
             ) : (
               <>
-                <Bar
+                <Line
                   dataKey="estimated"
                   name={t("Estimated")}
-                  fill="var(--chart-selected)"
-                  radius={[4, 4, 0, 0]}
+                  stroke="var(--chart-selected)"
+                  strokeWidth={2.5}
+                  dot={{ r: 4, fill: "var(--chart-selected)" }}
+                  activeDot={{ r: 6 }}
+                  connectNulls={false}
                   isAnimationActive={false}
                 />
-                <Bar
+                <Line
                   dataKey="actual"
                   name={t("Actual")}
-                  fill="var(--accent)"
-                  radius={[4, 4, 0, 0]}
+                  stroke="var(--accent)"
+                  strokeWidth={2.5}
+                  dot={{ r: 4, fill: "var(--accent)" }}
+                  activeDot={{ r: 6 }}
+                  connectNulls={false}
                   isAnimationActive={false}
                 />
               </>
             )}
-          </BarChart>
+            {isVarianceView && (
+              <ReferenceLine
+                y={0}
+                stroke="var(--chart-axis)"
+                strokeDasharray="4 4"
+              />
+            )}
+          </LineChart>
         </ResponsiveContainer>
       </div>
     </section>

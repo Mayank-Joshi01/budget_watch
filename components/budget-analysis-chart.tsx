@@ -27,6 +27,48 @@ function money(value: number | null, t: (key: string) => string) {
     : `₹${value.toLocaleString("en-IN")} crore`;
 }
 
+function BudgetOverviewTooltip({
+  active,
+  payload,
+}: {
+  active?: boolean;
+  payload?: Array<{
+    dataKey?: string | number;
+    value?: number | string | null;
+    payload?: {
+      name?: string;
+    };
+  }>;
+}) {
+  const { t } = useLanguage();
+  const point = payload?.[0];
+  const dataKey = point?.dataKey;
+
+  if (!active || !point?.payload?.name || dataKey === undefined) {
+    return null;
+  }
+
+  const label =
+    dataKey === "be" ? t("Budget Estimate") : t("Actuals");
+
+  return (
+    <div className="chart-tooltip budget-overview-tooltip">
+      <strong>{point.payload.name}</strong>
+      <div className="chart-tooltip-row">
+        <span>{label}</span>
+        <strong>
+          {money(
+            point.value === null || point.value === undefined
+              ? null
+              : Number(point.value),
+            t,
+          )}
+        </strong>
+      </div>
+    </div>
+  );
+}
+
 function MetricBars({
   metrics,
   percentage = false,
@@ -63,6 +105,8 @@ function MetricBars({
           }
         />
         <Tooltip
+          shared={false}
+          isAnimationActive={false}
           formatter={(value, key) => [
             percentage
               ? `${Number(value).toFixed(1)}%`
@@ -244,7 +288,7 @@ export function BudgetOverviewChart() {
                 tickLine={false}
                 tick={{
                   fontSize: 11,
-                  fill: "var(--chart-text)",
+                  fill: "var(--text-secondary)",
                 }}
               />
 
@@ -256,31 +300,18 @@ export function BudgetOverviewChart() {
                 tickLine={false}
                 tick={{
                   fontSize: 12,
-                  fill: "var(--chart-text)",
+                  fill: "var(--text-secondary)",
                 }}
               />
 
               <Tooltip
+                content={<BudgetOverviewTooltip />}
+                shared={false}
+                isAnimationActive={false}
                 cursor={{
                   fill: "var(--chart-grid)",
                   opacity: 0.2,
                 }}
-                contentStyle={{
-                  borderRadius: 10,
-                  border: "1px solid var(--border)",
-                  background: "var(--background)",
-                }}
-                formatter={(value, name) => [
-                  money(
-                    value === null ? null : Number(value),
-                    t,
-                  ),
-                  t(
-                    name === "be"
-                      ? "Budget Estimate"
-                      : "Actuals",
-                  ),
-                ]}
               />
 
               <Bar
@@ -483,7 +514,14 @@ export default function BudgetAnalysisCharts() {
             <CartesianGrid stroke="var(--chart-grid)" strokeDasharray="3 4" vertical={false} />
             <XAxis dataKey="month" />
             <YAxis tickFormatter={(value: number) => value.toLocaleString("en-IN")} />
-            <Tooltip formatter={(value) => [money(Number(value), t), t("Monthly value")]} />
+            <Tooltip
+              shared={false}
+              isAnimationActive={false}
+              formatter={(value) => [
+                money(Number(value), t),
+                t("Monthly value"),
+              ]}
+            />
             <Line dataKey="value" name={t("Monthly value")} stroke="var(--accent)" strokeWidth={2.5} dot={{ r: 4 }} connectNulls={false} />
           </LineChart>
         </ResponsiveContainer>

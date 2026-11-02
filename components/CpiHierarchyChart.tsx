@@ -539,6 +539,8 @@ export default function CpiHierarchyChart() {
               />
 
               <Tooltip
+                shared={false}
+                isAnimationActive={false}
                 formatter={(value) => [
                   Number(value).toFixed(2),
                   metric === "index"

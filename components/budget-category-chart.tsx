@@ -175,6 +175,8 @@ export function BudgetCategoryChart({
                 tick={<CategoryYAxisTick />}
               />
               <Tooltip
+                shared={false}
+                isAnimationActive={false}
                 cursor={{ fill: "var(--surface-muted)" }}
                 content={<CategoryTooltip selectedYear={selectedYear} viewMode={viewMode} />}
                 offset={14}

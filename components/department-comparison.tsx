@@ -219,6 +219,8 @@ export function DepartmentComparison({
                   <XAxis dataKey="financialYear" axisLine={false} tickLine={false} />
                   <YAxis axisLine={false} tickLine={false} tickFormatter={(value: number) => formatCroreCompact(value)} width={80} />
                   <Tooltip
+                    shared={false}
+                    isAnimationActive={false}
                     labelFormatter={(label) => String(label)}
                     formatter={(value) => typeof value === "number" ? formatCroreExact(value) : "—"}
                   />

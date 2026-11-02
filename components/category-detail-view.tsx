@@ -128,6 +128,8 @@ export function CategoryDetailView({
                   width={80}
                 />
                 <Tooltip
+                  shared={false}
+                  isAnimationActive={false}
                   formatter={(value) => {
                     const numeric = Array.isArray(value)
                       ? Number(value[0] ?? 0)
@@ -180,6 +182,8 @@ export function CategoryDetailView({
                   width={140}
                 />
                 <Tooltip
+                  shared={false}
+                  isAnimationActive={false}
                   formatter={(value) => {
                     const numeric = Array.isArray(value)
                       ? Number(value[0] ?? 0)

@@ -35,6 +35,36 @@ function formatTooltipValue(value: number) {
   })} lakh crore`;
 }
 
+function GDPTooltip({
+  active,
+  payload,
+}: {
+  active?: boolean;
+  payload?: Array<{
+    payload?: {
+      year?: string;
+      value?: number;
+    };
+  }>;
+}) {
+  const { t } = useLanguage();
+  const point = payload?.[0]?.payload;
+
+  if (!active || !point?.year || typeof point.value !== "number") {
+    return null;
+  }
+
+  return (
+    <div className="chart-tooltip gdp-overview-tooltip">
+      <strong>{point.year}</strong>
+      <div className="chart-tooltip-row">
+        <span>{t("GDP")}</span>
+        <strong>{formatTooltipValue(point.value)}</strong>
+      </div>
+    </div>
+  );
+}
+
 export default function GDPOverviewChart() {
   const { t } = useLanguage();
 
@@ -154,7 +184,7 @@ export default function GDPOverviewChart() {
                 }}
                 tickLine={false}
                 tick={{
-                  fill: "var(--chart-text)",
+                  fill: "var(--text-secondary)",
                   fontSize: 14,
                 }}
                 dy={8}
@@ -167,7 +197,7 @@ export default function GDPOverviewChart() {
                 }}
                 tickLine={false}
                 tick={{
-                  fill: "var(--chart-text)",
+                  fill: "var(--text-secondary)",
                   fontSize: 13,
                 }}
                 tickFormatter={(value: number) =>
@@ -177,24 +207,13 @@ export default function GDPOverviewChart() {
               />
 
               <Tooltip
+                content={<GDPTooltip />}
+                shared={false}
+                isAnimationActive={false}
                 cursor={{
                   fill: "var(--chart-grid)",
                   opacity: 0.18,
                 }}
-                contentStyle={{
-                  borderRadius: "10px",
-                  border: "1px solid var(--border)",
-                  background: "var(--background)",
-                  boxShadow: "0 4px 16px rgba(0,0,0,0.08)",
-                }}
-                labelStyle={{
-                  fontWeight: 600,
-                  marginBottom: 4,
-                }}
-                formatter={(value) => [
-                  formatTooltipValue(Number(value)),
-                  t("GDP"),
-                ]}
               />
 
               <Bar

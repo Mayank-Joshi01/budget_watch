@@ -216,7 +216,17 @@ export function SchemeComparison({
                 <CartesianGrid stroke="var(--chart-grid)" strokeDasharray="3 4" vertical={false} />
                 <XAxis dataKey="financialYear" axisLine={false} tickLine={false} tick={{ fill: "var(--chart-axis)" }} />
                 <YAxis axisLine={false} tickLine={false} tick={{ fill: "var(--chart-axis)" }} tickFormatter={mode === "allocation" ? (value: number) => formatCroreCompact(value) : (value: number) => `${Number(value.toFixed(2))}%`} width={80} />
-                <Tooltip formatter={(value) => typeof value === "number" ? mode === "allocation" ? formatCroreExact(value) : formatShare(value) : "—"} />
+                <Tooltip
+                  shared={false}
+                  isAnimationActive={false}
+                  formatter={(value) =>
+                    typeof value === "number"
+                      ? mode === "allocation"
+                        ? formatCroreExact(value)
+                        : formatShare(value)
+                      : "—"
+                  }
+                />
                 <Legend />
                 {histories.map((scheme, index) => (
                   <Line connectNulls={false} dataKey={scheme.id} key={scheme.id} name={scheme.scheme} stroke={colors[index]} strokeWidth={2} dot={{ r: 2 }} />

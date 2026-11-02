@@ -1,0 +1,36 @@
+{
+  "data": [
+    {
+      "base_year": "2022-23",
+      "series": "Current",
+      "year": "2025-26",
+      "indicator": "Gross Domestic Product",
+      "frequency": "Annual",
+      "revision": "Provisional Estimates",
+      "quarter": null,
+      "current_price": "34536796",
+      "constant_price": "32470100",
+      "unit": "₹ Crore"
+    },
+    {
+      "base_year": "2022-23",
+      "series": "Current",
+      "year": "2024-25",
+      "indicator": "Gross Domestic Product",
+      "frequency": "Annual",
+      "revision": "First Revised Estimates",
+      "quarter": null,
+      "current_price": "31798524",
+      "constant_price": "30115428",
+      "unit": "₹ Crore"
+    }
+  ],
+  "meta_data": {
+    "page": 1,
+    "totalRecords": 4,
+    "totalPages": 1,
+    "recordPerPage": 10
+  },
+  "msg": "Data fetched successfully",
+  "statusCode": true
+}

@@ -6,6 +6,8 @@ import PLFSOverviewChart from "@/components/plfs-overview";
 import { BudgetOverviewChart } from "@/components/budget-analysis-chart";
 import { BudgetCategoryChart } from "@/components/budget-category-chart";
 import { EstimatedActualExpenditureChart } from "@/components/estimated-actual-expenditure-chart";
+import { WhereMoneyGoes } from "@/components/where-money-goes";
+import { DeficitSnapshot } from "@/components/deficit-snapshot";
 import GDPChart from "@/components/gdp-overview";
 import {
   budgetRecords,
@@ -16,6 +18,7 @@ import {
 import { buildYearTotals, summarizeBudget } from "@/lib/analytics/budget";
 import { getBudgetCategorySummaries } from "@/lib/data/categories";
 import { getEstimatedActualExpenditure } from "@/lib/data/estimated-actual-expenditure";
+import { budgetAnalysisData, usableMetrics } from "@/lib/data/budget-analysis";
 import { formatCroreCompact } from "@/lib/format";
 
 type PageProps = {
@@ -99,6 +102,18 @@ async function DashboardData({ searchParams }: PageProps) {
         </article>
       </section>
 
+      <DeficitSnapshot
+        metrics={usableMetrics(
+          budgetAnalysisData.sections.account_summary.metrics,
+        )}
+      />
+
+      <div className="h-2 mt-4 mb-2" >
+        <p>
+          
+        </p>
+      </div>
+
       <div className="overview-analysis-row">
         <section className="panel overview-major-category-panel">
           <BudgetCategoryChart
@@ -112,9 +127,14 @@ async function DashboardData({ searchParams }: PageProps) {
       </div>
 
       <div className="overview-flow">
+        <WhereMoneyGoes
+          categories={getBudgetCategorySummaries(selectedYear)}
+          selectedYear={selectedYear}
+        />
         <Link href="/budget-analysis">
           <BudgetOverviewChart />
         </Link>
+
         <Link href="/inflation">
           <InflationChart
             variant="All-India"

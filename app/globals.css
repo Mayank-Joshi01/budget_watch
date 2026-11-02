@@ -1122,6 +1122,159 @@ h1 {
   overflow-x: auto;
 }
 
+.plfs-map-chart {
+  padding: 18px 20px 10px;
+}
+
+.plfs-map-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.65fr);
+  align-items: center;
+  gap: 24px;
+}
+
+.plfs-map-canvas {
+  min-width: 0;
+}
+
+.plfs-map-svg {
+  display: block;
+  width: 100%;
+  max-height: 640px;
+}
+
+.plfs-map-state {
+  cursor: pointer;
+  outline: none;
+  stroke: #ffffff;
+  stroke-width: 0.8px;
+  vector-effect: non-scaling-stroke;
+  stroke-linejoin: round;
+  transition:
+    fill 140ms ease,
+    stroke 140ms ease,
+    stroke-width 140ms ease;
+}
+
+.plfs-map-state:hover,
+.plfs-map-state:focus-visible,
+.plfs-map-state--selected {
+  stroke: var(--warning);
+  stroke-width: 1.6px;
+}
+
+.plfs-map-summary {
+  min-width: 0;
+  display: grid;
+  align-content: start;
+  gap: 18px;
+}
+
+.plfs-map-detail {
+  min-width: 0;
+  min-height: 154px;
+  padding: 15px;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  background: var(--surface-muted);
+  overflow-wrap: anywhere;
+}
+
+.plfs-map-label,
+.plfs-map-year,
+.plfs-map-prompt,
+.plfs-map-no-data {
+  margin: 0;
+}
+
+.plfs-map-label {
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.plfs-map-year {
+  margin-top: 2px;
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.plfs-map-state-name {
+  margin: 16px 0 4px;
+  color: var(--text-primary);
+  font-size: 15px;
+}
+
+.plfs-map-value {
+  margin: 4px 0 0;
+  color: var(--text-primary);
+  font-size: 30px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.plfs-map-prompt,
+.plfs-map-no-data {
+  margin-top: 18px;
+  color: var(--text-secondary);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.plfs-map-legend h3 {
+  margin: 0 0 10px;
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.plfs-map-legend ul {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.plfs-map-legend li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+
+.plfs-map-swatch {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+}
+
+.plfs-map-swatch--no-data {
+  background: #aab4c0;
+}
+
+.plfs-map-coverage {
+  margin: 12px 0 0;
+  color: var(--text-muted);
+  font-size: 10px;
+}
+
+.plfs-map-attribution {
+  margin: 4px 0 0;
+  color: var(--text-muted);
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.plfs-map-attribution a {
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .plfs-insight {
   margin: 0;
   padding: 10px 16px 14px;
@@ -2748,6 +2901,16 @@ html:lang(hi) .data-table th {
   .gdp-detail-analysis-grid {
     grid-template-columns: minmax(0, 1fr);
   }
+
+  .plfs-map-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .plfs-map-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
 }
 
 @media (max-width: 620px) {
@@ -2795,6 +2958,28 @@ html:lang(hi) .data-table th {
 
   .gdp-detail-page {
     gap: 12px;
+  }
+
+  .plfs-map-chart {
+    padding: 12px;
+  }
+
+  .plfs-map-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .plfs-map-summary {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .plfs-map-detail {
+    min-height: 145px;
+  }
+
+  .plfs-map-legend ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .gdp-detail-summary {

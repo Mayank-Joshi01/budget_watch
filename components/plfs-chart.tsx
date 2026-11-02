@@ -14,6 +14,7 @@ import {
 } from "recharts";
 import { useLanguage } from "@/lib/i18n/provider";
 
+import IndiaWprMap from "@/components/india-wpr-map";
 import { getPLFSData } from "@/lib/api/plfs";
 import type { PLFSApiParams, PLFSRecord } from "@/lib/types/plfs";
 import { PLFS_INDICATORS, PLFS_YEARS } from "@/lib/types/plfs";
@@ -291,16 +292,8 @@ export default function PLFSCharts() {
         <Message request={stateEmployment} empty={!stateData.length} />
         {!stateEmployment.loading && !stateEmployment.error && stateData.length > 0 && (
           <>
-            <div className="chart-frame plfs-state-chart">
-              <ResponsiveContainer width="100%" height={Math.max(420, stateData.length * 22)}>
-                <BarChart data={stateData} layout="vertical" margin={{ top: 12, right: 24, bottom: 12, left: 108 }}>
-                  <CartesianGrid stroke="var(--chart-grid)" strokeDasharray="3 4" horizontal={false} />
-                  <XAxis type="number" domain={[0, "auto"]} tickFormatter={(value: number) => `${value}%`} />
-                  <YAxis type="category" dataKey="state" width={104} tick={{ fontSize: 11 }} />
-                  <Tooltip formatter={(value) => [`${Number(value).toFixed(2)}%`, t("WPR")]} labelFormatter={(label) => `${label} · ${stateYear}`} />
-                  <Bar dataKey="value" fill="var(--accent)" radius={[0, 5, 5, 0]} isAnimationActive={false} />
-                </BarChart>
-              </ResponsiveContainer>
+            <div className="plfs-map-chart">
+              <IndiaWprMap data={stateData} year={stateYear} />
             </div>
             <p className="plfs-insight">{stateInsight}</p>
           </>

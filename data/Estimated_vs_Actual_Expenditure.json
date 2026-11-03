@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "title": "Union Government Total Expenditure: Estimated vs Actual",
+    "unit": "Rs. in Crore",
+    "notes": [
+      "estimated_expenditure is the Budget Estimate for the year.",
+      "actual_expenditure is null where actuals are not yet available.",
+      "variance and variance_pct are derived: (actual - estimated) and that difference as a % of estimated; positive means overspend.",
+      "Records are in chronological order."
+    ]
+  },
+  "data": [
+    {
+      "financial_year": "2021-22",
+      "estimated_expenditure": 3483235.63,
+      "actual_expenditure": 3793800.0,
+      "variance": 310564.37,
+      "variance_pct": 8.92
+    },
+    {
+      "financial_year": "2022-23",
+      "estimated_expenditure": 3944908.67,
+      "actual_expenditure": 4193157.0,
+      "variance": 248248.33,
+      "variance_pct": 6.29
+    },
+    {
+      "financial_year": "2023-24",
+      "estimated_expenditure": 4503097.45,
+      "actual_expenditure": 4442542.0,
+      "variance": -60555.45,
+      "variance_pct": -1.34
+    },
+    {
+      "financial_year": "2024-25",
+      "estimated_expenditure": 4820512.08,
+      "actual_expenditure": null,
+      "variance": null,
+      "variance_pct": null
+    },
+    {
+      "financial_year": "2025-26",
+      "estimated_expenditure": 5065345.04,
+      "actual_expenditure": null,
+      "variance": null,
+      "variance_pct": null
+    },
+    {
+      "financial_year": "2026-27",
+      "estimated_expenditure": 5347314.81,
+      "actual_expenditure": null,
+      "variance": null,
+      "variance_pct": null
+    }
+  ]
+}

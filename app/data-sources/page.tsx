@@ -94,9 +94,6 @@ export default function DataSourcesPage() {
             <p>
               The primary sources used by Budget Watch are government
               ministries, departments and official statistical portals.
-              Local JSON files used by the application are processed
-              representations of these datasets and are not treated as
-              independent sources.
             </p>
           </div>
 

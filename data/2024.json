@@ -1,0 +1,3061 @@
+{
+  "year": "2024-25",
+  "ministries": [
+    {
+      "ministry": "Ministry of Agriculture and Farmers Welfare",
+      "total": 132469.86,
+      "departments": [
+        {
+          "department": "Department of Agriculture and Farmers Welfare",
+          "total": 122528.77,
+          "schemes": [
+            {
+              "scheme": "Pradhan Mantri Fasal Bima Yojana",
+              "budget": 14600.0
+            },
+            {
+              "scheme": "Modified Interest Subvention Scheme (MISS)",
+              "budget": 22600.0
+            },
+            {
+              "scheme": "Pradhan Mantri Annadata Aay Sanrakshan Yojna (PM-AASHA)",
+              "budget": 6437.5
+            },
+            {
+              "scheme": "Distribution of Pulses to State / Union Territories for Welfare Schemes",
+              "budget": 300.0
+            },
+            {
+              "scheme": "Pradhan Mantri Kisan Samman Nidhi (PM-Kisan)",
+              "budget": 60000.0
+            },
+            {
+              "scheme": "Pradhan Mantri Kisan Man Dhan Yojana",
+              "budget": 100.0
+            },
+            {
+              "scheme": "Formation and Promotion of 10,000 Farmer Producer Organizations (FPOs)",
+              "budget": 581.67
+            },
+            {
+              "scheme": "Agriculture Infrastructure Fund (AIF)",
+              "budget": 600.0
+            },
+            {
+              "scheme": "National Beekeeping Honey Mission (NBHM)",
+              "budget": 75.0
+            },
+            {
+              "scheme": "Blended Capital Support to Finance Startups for Agriculture and Rural Enterprise Relevant for Farm Produce Value Chain",
+              "budget": 62.5
+            },
+            {
+              "scheme": "NAMO DRONE DIDI",
+              "budget": 500.0
+            }
+          ]
+        },
+        {
+          "department": "Department of Agricultural Research and Education",
+          "total": 9941.09,
+          "schemes": [
+            {
+              "scheme": "Strengthening of Krishi Vigyan Kendras (KVKs)",
+              "budget": 234.89
+            },
+            {
+              "scheme": "Agricultural Production and Post-Production Mechanization Augmented with Innovative Technologies for Sustainable Agriculture Development",
+              "budget": 91.24
+            },
+            {
+              "scheme": "Natural Resource Management",
+              "budget": 252.16
+            },
+            {
+              "scheme": "Crop Science for Food and Nutritional Security",
+              "budget": 930.22
+            },
+            {
+              "scheme": "Technology based support in improvement and management of horticulture crops towards enhanced and sustainable productivity for nutritional security (Horticultural Science)",
+              "budget": 257.07
+            },
+            {
+              "scheme": "Research, Education and Technology Development for Sustainable Livestock Health and Production towards Nutritional Security",
+              "budget": 415.15
+            },
+            {
+              "scheme": "Fisheries and Aquaculture for Sustainable Development",
+              "budget": 200.92
+            },
+            {
+              "scheme": "Strengthening Agricultural Education, Management & Social Sciences",
+              "budget": 398.74
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Department of Atomic Energy",
+      "total": 24968.98,
+      "departments": [
+        {
+          "department": "Atomic Energy",
+          "total": 24968.98,
+          "schemes": [
+            {
+              "scheme": "R&D projects of Bhabha Atomic Research Centre (BARC)",
+              "budget": 1100.0
+            },
+            {
+              "scheme": "R&D projects of Indira Gandhi Centre of Atomic Research (IGCAR)",
+              "budget": 225.0
+            },
+            {
+              "scheme": "R&D projects of Raja Ramanna Centre for Advanced Technology (RRCAT)",
+              "budget": 130.0
+            },
+            {
+              "scheme": "R&D projects of Atomic Minerals Directorate for Exploration and Research (AMDER)",
+              "budget": 221.76
+            },
+            {
+              "scheme": "Grants to other Institutions",
+              "budget": 90.0
+            },
+            {
+              "scheme": "Fuel Recycle Projects (NRB)",
+              "budget": 805.2
+            },
+            {
+              "scheme": "Housing Projects",
+              "budget": 161.2
+            },
+            {
+              "scheme": "Improvement/Modifications of Heavy water projects",
+              "budget": 40.0
+            },
+            {
+              "scheme": "Feedstock",
+              "budget": 1253.0
+            },
+            {
+              "scheme": "Radiation and Isotopes Project (BRIT)",
+              "budget": 40.0
+            },
+            {
+              "scheme": "Nuclear Power Projects",
+              "budget": 2227.83
+            },
+            {
+              "scheme": "Nuclear Fuel Fabrication Projects",
+              "budget": 763.61
+            },
+            {
+              "scheme": "Atomic Energy Regulatory Board Expansion Project",
+              "budget": 15.81
+            },
+            {
+              "scheme": "R&D projects of Variable Energy Cyclotron Centre (VECC)",
+              "budget": 54.99
+            },
+            {
+              "scheme": "Research and Development Projects",
+              "budget": 1200.0
+            },
+            {
+              "scheme": "Industries and Minerals Projects",
+              "budget": 31.74
+            },
+            {
+              "scheme": "Fast Reactor Fuel Cycle Projects (FRFCF) Kalpakkam",
+              "budget": 475.0
+            },
+            {
+              "scheme": "Nuclear Fuel Inventory",
+              "budget": -1305.73
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of AYUSH",
+      "total": 3712.49,
+      "departments": [
+        {
+          "department": "Ministry of Ayush",
+          "total": 3712.49,
+          "schemes": [
+            {
+              "scheme": "Information, Education and Communication",
+              "budget": 43.2
+            },
+            {
+              "scheme": "Promotion of International Cooperation",
+              "budget": 137.42
+            },
+            {
+              "scheme": "AYURGYAN",
+              "budget": 49.5
+            },
+            {
+              "scheme": "Ayurswasthay Yojana",
+              "budget": 72.59
+            },
+            {
+              "scheme": "AYUSH Oushadhi Gunvatta evum Uttapadan Samvardhan Yojana (AOGUSY)",
+              "budget": 25.0
+            },
+            {
+              "scheme": "Central Sector Scheme for Conservation, Development and Sustainable Management of Medicinal Plants",
+              "budget": 49.49
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Chemicals and Fertilisers",
+      "total": 168499.87,
+      "departments": [
+        {
+          "department": "Department of Chemicals and Petrochemicals",
+          "total": 259.11,
+          "schemes": [
+            {
+              "scheme": "New Schemes of Petrochemicals",
+              "budget": 25.0
+            }
+          ]
+        },
+        {
+          "department": "Department of Fertilisers",
+          "total": 164150.81,
+          "schemes": [
+            {
+              "scheme": "Urea Subsidy",
+              "budget": 119000.0
+            },
+            {
+              "scheme": "Nutrient Based Subsidy",
+              "budget": 45000.0
+            },
+            {
+              "scheme": "Scheme for promotion of flagging of merchant ships in India",
+              "budget": 2.5
+            },
+            {
+              "scheme": "Policy on Promotion of Organic Fertilizers",
+              "budget": 100.0
+            }
+          ]
+        },
+        {
+          "department": "Department of Pharmaceuticals",
+          "total": 4089.95,
+          "schemes": [
+            {
+              "scheme": "National Institutes of Pharmaceutical Education and Research (NIPERs)",
+              "budget": 242.0
+            },
+            {
+              "scheme": "Jan Aushadhi Scheme",
+              "budget": 284.5
+            },
+            {
+              "scheme": "Consumer Awareness Publicity and Price Monitoring",
+              "budget": 4.0
+            },
+            {
+              "scheme": "Development of Pharmaceutical Indsutry",
+              "budget": 1300.0
+            },
+            {
+              "scheme": "Production Linked Incentive Schemes",
+              "budget": 2143.0
+            },
+            {
+              "scheme": "Promotion of Research and Innovation in Pharma Med-Tech (PRIP)",
+              "budget": 75.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Civil Aviation",
+      "total": 2357.14,
+      "departments": [
+        {
+          "department": "Ministry of Civil Aviation",
+          "total": 2357.14,
+          "schemes": [
+            {
+              "scheme": "Regional Connectivity Scheme",
+              "budget": 502.0
+            },
+            {
+              "scheme": "Krishi Udaan Scheme",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Production Linked Incentive (PLI) Scheme for Drone and Drone Component",
+              "budget": 57.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Coal",
+      "total": 192.55,
+      "departments": [
+        {
+          "department": "Ministry of Coal",
+          "total": 192.55,
+          "schemes": [
+            {
+              "scheme": "Research and Development",
+              "budget": 21.0
+            },
+            {
+              "scheme": "Conservation, Safety and Infrastructure Development in Coal Mines",
+              "budget": 92.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Commerce and Industry",
+      "total": 11469.14,
+      "departments": [
+        {
+          "department": "Department of Commerce",
+          "total": 5014.06,
+          "schemes": [
+            {
+              "scheme": "Agricultural Product Export Development Authority (APEDA)",
+              "budget": 80.0
+            },
+            {
+              "scheme": "Marine Product Export Development Authority (MPEDA)",
+              "budget": 110.0
+            },
+            {
+              "scheme": "Trade Infrastructure for Export Schemes (TIES)",
+              "budget": 51.67
+            },
+            {
+              "scheme": "Duty Drawback Scheme",
+              "budget": 180.0
+            },
+            {
+              "scheme": "Tea Board",
+              "budget": 721.5
+            },
+            {
+              "scheme": "Coffee Board",
+              "budget": 280.0
+            },
+            {
+              "scheme": "Rubber Board",
+              "budget": 320.0
+            },
+            {
+              "scheme": "Spices Board",
+              "budget": 130.0
+            },
+            {
+              "scheme": "Market Access Initiative",
+              "budget": 200.0
+            },
+            {
+              "scheme": "Gems and Jewellery Sector",
+              "budget": 39.17
+            },
+            {
+              "scheme": "Interest Equalisation Scheme",
+              "budget": 1700.0
+            },
+            {
+              "scheme": "Centre For Research on International Trade-CRIT (Centre for WTO Studies)",
+              "budget": 45.0
+            },
+            {
+              "scheme": "Transport and Marketing Assistance (TMA) Scheme for specified agriculture products",
+              "budget": 0.01
+            }
+          ]
+        },
+        {
+          "department": "Department for Promotion of Industry and Internal Trade",
+          "total": 6455.08,
+          "schemes": [
+            {
+              "scheme": "Footwear, Leather and Accessories Development Programme (FLADP)",
+              "budget": 250.0
+            },
+            {
+              "scheme": "Industrial Infrastructure Upgradation Scheme (IIUS)",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Price and Production Statistics",
+              "budget": 17.0
+            },
+            {
+              "scheme": "National Industrial Corridor Development and Implementation Trust (NICDIT)",
+              "budget": 500.0
+            },
+            {
+              "scheme": "Scheme for Investment Promotion",
+              "budget": 180.0
+            },
+            {
+              "scheme": "Fund of Funds",
+              "budget": 1200.0
+            },
+            {
+              "scheme": "Credit Guarantee Fund",
+              "budget": 100.0
+            },
+            {
+              "scheme": "Startup India",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Startup India Seed Fund Scheme (SISFS)",
+              "budget": 175.0
+            },
+            {
+              "scheme": "Ease of Doing Business",
+              "budget": 10.0
+            },
+            {
+              "scheme": "Production Linked Incentive Scheme (PLI) for White Goods (ACs and LED Lights)",
+              "budget": 298.02
+            },
+            {
+              "scheme": "Production Linked Incentive (PLI) Scheme for Toys",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Production Linked Incentive (PLI) Scheme for Footwear and Leather Sector",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Uttar Poorva Transformative Industrialization Scheme (UNNATI), 2024",
+              "budget": 30.0
+            },
+            {
+              "scheme": "North Eastern Industrial and Investment Promotion Policy (NEIPP)",
+              "budget": 80.0
+            },
+            {
+              "scheme": "North East Industrial Development Scheme (NEIDS) 2017",
+              "budget": 400.0
+            },
+            {
+              "scheme": "Package for Special Catagory States for Jammu and Kashmir, Himachal Pradesh and Uttarakhand",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Industrial Development Scheme, 2017 for Union Territory of Jammu & Kashmir and Union Territory of Ladakh",
+              "budget": 100.0
+            },
+            {
+              "scheme": "Industrial Development Scheme for Himachal Pradesh & Uttarakhand, 2017",
+              "budget": 567.0
+            },
+            {
+              "scheme": "Industrial Development of UT of Jammu and Kashmir",
+              "budget": 300.0
+            },
+            {
+              "scheme": "Industrial Development of Ladakh, 2022",
+              "budget": 5.0
+            },
+            {
+              "scheme": "Refund of Central and Integrated GST to Industrial Units in North Eastern Region and Himalayan States",
+              "budget": 1382.35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Communications",
+      "total": 137293.9,
+      "departments": [
+        {
+          "department": "Department of Posts",
+          "total": 25378.47,
+          "schemes": [
+            {
+              "scheme": "Postal Operation",
+              "budget": 225.98
+            },
+            {
+              "scheme": "India Post Payments Bank",
+              "budget": 250.0
+            },
+            {
+              "scheme": "Human Resource Management",
+              "budget": 42.5
+            },
+            {
+              "scheme": "Estates Management",
+              "budget": 133.0
+            },
+            {
+              "scheme": "IT Modernization Project 2.0",
+              "budget": 748.02
+            }
+          ]
+        },
+        {
+          "department": "Department of Telecommunications",
+          "total": 111915.43,
+          "schemes": [
+            {
+              "scheme": "Compensation to Service Providers for creation and augmentation of telecom infrastructure",
+              "budget": 2000.0
+            },
+            {
+              "scheme": "Domestic Industry Incentivisation Scheme",
+              "budget": 1910.8
+            },
+            {
+              "scheme": "Wireless Planning and Coordination",
+              "budget": 300.0
+            },
+            {
+              "scheme": "Telecom Engineering Centre",
+              "budget": 0.17
+            },
+            {
+              "scheme": "Telecom Testing and Security Certification Centre",
+              "budget": 6.0
+            },
+            {
+              "scheme": "Telecom Computer Emergency Response Team(T-Cert)",
+              "budget": 8.54
+            },
+            {
+              "scheme": "Funding to BSNL for providing Telecom Connectivity for Amarnath Yatra",
+              "budget": 1.0
+            },
+            {
+              "scheme": "5G Connectivity Test Bed",
+              "budget": 2.92
+            },
+            {
+              "scheme": "Digital Intelligence Unit Project",
+              "budget": 85.0
+            },
+            {
+              "scheme": "Prevention of Spoofed Incoming International Calls System 'CIOR'",
+              "budget": 38.76
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+      "total": 223323.36,
+      "departments": [
+        {
+          "department": "Department of Consumer Affairs",
+          "total": 10303.61,
+          "schemes": [
+            {
+              "scheme": "Price Stabilisation Fund",
+              "budget": 10000.0
+            },
+            {
+              "scheme": "CONFONET",
+              "budget": 42.0
+            },
+            {
+              "scheme": "Consumer Awareness (Advertising and Publicity)",
+              "budget": 17.99
+            },
+            {
+              "scheme": "Consumer Protection Cell",
+              "budget": 8.0
+            },
+            {
+              "scheme": "Price Monitoring Structure",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Strengthening Consumer Forum, Consumer Counseling and Mediation",
+              "budget": 5.0
+            },
+            {
+              "scheme": "Bureau of Indian Standard",
+              "budget": 1.0
+            },
+            {
+              "scheme": "National Test House",
+              "budget": 35.0
+            },
+            {
+              "scheme": "Strengthening of Weights and Measures Infrastructure and Strengthening of Regional Reference Standard Laboratories and Indian Institute of Legal Metrology",
+              "budget": 60.0
+            }
+          ]
+        },
+        {
+          "department": "Department of Food and Public Distribution",
+          "total": 213019.75,
+          "schemes": [
+            {
+              "scheme": "Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY)",
+              "budget": 205250.0
+            },
+            {
+              "scheme": "Sugar Subsidy payable under Public Distribution System",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Scheme for extending financial assistance to sugar mills for enhancement and augmentation of ethanol production capacity",
+              "budget": 450.0
+            },
+            {
+              "scheme": "Schemes for Development of Sugar Industries",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Strengthening of PDS Operations",
+              "budget": 0.54
+            },
+            {
+              "scheme": "Storage and Godowns",
+              "budget": 0.01
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Cooperation",
+      "total": 1183.39,
+      "departments": [
+        {
+          "department": "Ministry of Cooperation",
+          "total": 1183.39,
+          "schemes": [
+            {
+              "scheme": "Co-operative Education",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Cooperative Training",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Grant-in-aid to National Cooperative Development Corporation (NCDC) for strengthening of Cooperative Sugar Mills (CSMs)",
+              "budget": 500.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Corporate Affairs",
+      "total": 2667.06,
+      "departments": [
+        {
+          "department": "Ministry of Corporate Affairs",
+          "total": 2667.06,
+          "schemes": [
+            {
+              "scheme": "Corporate Data Management (CDM)",
+              "budget": 5.0
+            },
+            {
+              "scheme": "New Internship Programme",
+              "budget": 2000.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Culture",
+      "total": 3260.93,
+      "departments": [
+        {
+          "department": "Ministry of Culture",
+          "total": 3260.93,
+          "schemes": [
+            {
+              "scheme": "Centenaries and Anniversaries, Celebrations and Schemes",
+              "budget": 90.0
+            },
+            {
+              "scheme": "Kala Sanskriti Vikas Yojana",
+              "budget": 207.24
+            },
+            {
+              "scheme": "Development of Museums",
+              "budget": 165.6
+            },
+            {
+              "scheme": "Development of Libraries and Archives",
+              "budget": 27.24
+            },
+            {
+              "scheme": "Global Engagement and International Cooperation",
+              "budget": 12.1
+            },
+            {
+              "scheme": "National mission on cultural mapping and roadmap",
+              "budget": 18.06
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Defence",
+      "total": 621940.85,
+      "departments": [
+        {
+          "department": "Ministry of Defence (Civil)",
+          "total": 25963.18,
+          "schemes": [
+            {
+              "scheme": "Works under Border Roads Development Board",
+              "budget": 6500.0
+            },
+            {
+              "scheme": "Grants to States for Strategic Roads",
+              "budget": 55.0
+            },
+            {
+              "scheme": "Other works",
+              "budget": 1250.0
+            }
+          ]
+        },
+        {
+          "department": "Defence Services (Revenue)",
+          "total": 282772.67,
+          "schemes": []
+        },
+        {
+          "department": "Capital Outlay on Defence Services",
+          "total": 172000.0,
+          "schemes": [
+            {
+              "scheme": "Coordination & Services (Directorate of Ordnance Factories)",
+              "budget": 5.0
+            },
+            {
+              "scheme": "Research and Development",
+              "budget": 13208.0
+            },
+            {
+              "scheme": "Inspection - Director General Quality Audit (DGQA)",
+              "budget": 20.0
+            },
+            {
+              "scheme": "Land",
+              "budget": 2329.36
+            },
+            {
+              "scheme": "Aircraft and Aero Engines",
+              "budget": 40277.86
+            },
+            {
+              "scheme": "Heavy and Medium Vehicles",
+              "budget": 4637.88
+            },
+            {
+              "scheme": "Other Equipments",
+              "budget": 62198.02
+            },
+            {
+              "scheme": "Joint Staff",
+              "budget": 1352.98
+            },
+            {
+              "scheme": "Procurement of Rolling Stock",
+              "budget": 200.0
+            },
+            {
+              "scheme": "Ex- Servicemen Contributory Health Scheme",
+              "budget": 41.5
+            },
+            {
+              "scheme": "Rashtriya Rifles",
+              "budget": 200.0
+            },
+            {
+              "scheme": "National Cadet Corps",
+              "budget": 17.0
+            },
+            {
+              "scheme": "Construction Works",
+              "budget": 12016.75
+            },
+            {
+              "scheme": "Naval Fleet",
+              "budget": 23800.0
+            },
+            {
+              "scheme": "Naval Dockyard/ Projects",
+              "budget": 6830.0
+            },
+            {
+              "scheme": "Special Projects",
+              "budget": 1574.17
+            },
+            {
+              "scheme": "Projects of the Army",
+              "budget": 100.0
+            },
+            {
+              "scheme": "Projects of the Air Force",
+              "budget": 1697.48
+            },
+            {
+              "scheme": "Investment in Public Enterprises",
+              "budget": 1494.0
+            }
+          ]
+        },
+        {
+          "department": "Defence Pensions",
+          "total": 141205.0,
+          "schemes": []
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Development of North Eastern Region",
+      "total": 5900.0,
+      "departments": [
+        {
+          "department": "Ministry of Development of North Eastern Region",
+          "total": 5900.0,
+          "schemes": [
+            {
+              "scheme": "Schemes of North East Council",
+              "budget": 820.0
+            },
+            {
+              "scheme": "North East Special Infrastructure Development Scheme (NESIDS)",
+              "budget": 2491.0
+            },
+            {
+              "scheme": "North East Enterprise Development Scheme (NEEDS) erstwhile Loan to North East Development Finance Corporation",
+              "budget": 70.0
+            },
+            {
+              "scheme": "Special Development Packages",
+              "budget": 284.66
+            },
+            {
+              "scheme": "Prime Minister's Development Initiative for North East Region (PM-DevINE)",
+              "budget": 2200.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Earth Sciences",
+      "total": 3064.8,
+      "departments": [
+        {
+          "department": "Ministry of Earth Sciences",
+          "total": 3064.8,
+          "schemes": [
+            {
+              "scheme": "Ocean services, Modelling, Application, Resources and Technology (O-SMART)",
+              "budget": 310.0
+            },
+            {
+              "scheme": "Atmosphere and Climate Research - Modelling Observing Systems and Services (ACROSS)",
+              "budget": 500.0
+            },
+            {
+              "scheme": "Polar Science and Cryosphere (PACER)",
+              "budget": 146.0
+            },
+            {
+              "scheme": "Seismological and Geoscience (SAGE)",
+              "budget": 60.0
+            },
+            {
+              "scheme": "Research, Education and Training Outreach (REACHOUT)",
+              "budget": 55.0
+            },
+            {
+              "scheme": "Deep Ocean Mission (DOM)",
+              "budget": 600.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Education",
+      "total": 120627.87,
+      "departments": [
+        {
+          "department": "Department of School Education and Literacy",
+          "total": 73008.1,
+          "schemes": [
+            {
+              "scheme": "Pradhan Mantri Innovative Learning Programme (DHRUV)",
+              "budget": 0.01
+            },
+            {
+              "scheme": "National Means cum Merit Scholarship Scheme",
+              "budget": 377.0
+            }
+          ]
+        },
+        {
+          "department": "Department of Higher Education",
+          "total": 47619.77,
+          "schemes": [
+            {
+              "scheme": "National Research Professors",
+              "budget": 0.27
+            },
+            {
+              "scheme": "World Class Institutions",
+              "budget": 1800.0
+            },
+            {
+              "scheme": "Prime Minister's Girls' Hostel",
+              "budget": 2.0
+            },
+            {
+              "scheme": "Indian Knowledge Systems",
+              "budget": 10.0
+            },
+            {
+              "scheme": "Glue Grant for Higher Education Institutes",
+              "budget": 1.0
+            },
+            {
+              "scheme": "PM Uchchatar Shiksha Protsahan (PM-USP) Yojna",
+              "budget": 1558.0
+            },
+            {
+              "scheme": "PM Research Fellowship",
+              "budget": 350.0
+            },
+            {
+              "scheme": "National Mission in Education Through ICT",
+              "budget": 480.0
+            },
+            {
+              "scheme": "Higher Education Statistics and Public Information System (HESPIS)",
+              "budget": 15.0
+            },
+            {
+              "scheme": "Academic Bank of Credits (ABC)",
+              "budget": 10.0
+            },
+            {
+              "scheme": "National Inititative for Design Innovation",
+              "budget": 10.0
+            },
+            {
+              "scheme": "Unnat Bharat Abhiyan",
+              "budget": 5.0
+            },
+            {
+              "scheme": "Implementation of the IMPRINT Research Initiative (Impacting Research Innovation and Technology)",
+              "budget": 10.0
+            },
+            {
+              "scheme": "Scheme for Promotion of Academic and Research Collaboration (SPARC)",
+              "budget": 100.0
+            },
+            {
+              "scheme": "Scheme for Transformational and Advanced Research in Sciences (STARS)",
+              "budget": 30.0
+            },
+            {
+              "scheme": "Multidisciplinary Education and Research Improvement in Technical Education-EAP (MERITE)",
+              "budget": 200.0
+            },
+            {
+              "scheme": "Malaviya Mission Teacher Training Programme (MMTTP)",
+              "budget": 100.0
+            },
+            {
+              "scheme": "Global Initiative for Academic Network (GIAN)",
+              "budget": 10.0
+            },
+            {
+              "scheme": "National Apprenticeship Training Scheme (NATS)",
+              "budget": 600.0
+            },
+            {
+              "scheme": "Study in India",
+              "budget": 20.0
+            },
+            {
+              "scheme": "ASEAN Fellowship",
+              "budget": 2.66
+            },
+            {
+              "scheme": "Centres of Excellence (CoE) in Artificial Intelligence (AI)",
+              "budget": 255.0
+            },
+            {
+              "scheme": "Education Services-Internationalization of Higher Education",
+              "budget": 104.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Electronics and Information Technology",
+      "total": 21936.9,
+      "departments": [
+        {
+          "department": "Ministry of Electronics and Information Technology",
+          "total": 21936.9,
+          "schemes": [
+            {
+              "scheme": "Electronic Governance",
+              "budget": 650.0
+            },
+            {
+              "scheme": "National Knowledge Network",
+              "budget": 240.26
+            },
+            {
+              "scheme": "Promotion of Electronics and IT HW Manufacturing (MSIPS, EDF and Manufacturing Clusters)",
+              "budget": 750.0
+            },
+            {
+              "scheme": "Promotion of IT/ITeS Industries",
+              "budget": 130.0
+            },
+            {
+              "scheme": "Cyber Security Projects",
+              "budget": 759.0
+            },
+            {
+              "scheme": "R and D in IT/Electronics/CCBT",
+              "budget": 1148.25
+            },
+            {
+              "scheme": "Capacity Building and Skill Development Scheme",
+              "budget": 537.5
+            },
+            {
+              "scheme": "Promotion of Digital Transactions (excluding Digital Payments)",
+              "budget": 1.5
+            },
+            {
+              "scheme": "IndiaAI Mission",
+              "budget": 551.75
+            },
+            {
+              "scheme": "Modified Programme for Development of Semiconductors and Display Manufacturing Ecosystem in India",
+              "budget": 6903.0
+            },
+            {
+              "scheme": "Production Linked Incentive Scheme (PLI)",
+              "budget": 6200.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Environment, Forests and Climate Change",
+      "total": 3330.37,
+      "departments": [
+        {
+          "department": "Ministry of Environment, Forests and Climate Change",
+          "total": 3330.37,
+          "schemes": [
+            {
+              "scheme": "Environmental Knowledge and Capacity Building",
+              "budget": 78.34
+            },
+            {
+              "scheme": "National Coastal Mission (NCM)",
+              "budget": 50.0
+            },
+            {
+              "scheme": "Environment Education, Awareness, Research and Skill Development",
+              "budget": 87.4
+            },
+            {
+              "scheme": "Control of Pollution",
+              "budget": 858.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of External Affairs",
+      "total": 22154.67,
+      "departments": [
+        {
+          "department": "Ministry of External Affairs",
+          "total": 22154.67,
+          "schemes": [
+            {
+              "scheme": "Bhutan",
+              "budget": 2068.56
+            },
+            {
+              "scheme": "Afghanistan",
+              "budget": 200.0
+            },
+            {
+              "scheme": "Bangladesh",
+              "budget": 120.0
+            },
+            {
+              "scheme": "Nepal",
+              "budget": 700.0
+            },
+            {
+              "scheme": "Sri Lanka",
+              "budget": 245.0
+            },
+            {
+              "scheme": "Maldives",
+              "budget": 400.0
+            },
+            {
+              "scheme": "Myanmar",
+              "budget": 250.0
+            },
+            {
+              "scheme": "Mongolia",
+              "budget": 5.0
+            },
+            {
+              "scheme": "African Countries",
+              "budget": 200.0
+            },
+            {
+              "scheme": "Eurasian Countries",
+              "budget": 20.0
+            },
+            {
+              "scheme": "Latin American Countries",
+              "budget": 30.0
+            },
+            {
+              "scheme": "Other Developing Countries",
+              "budget": 125.0
+            },
+            {
+              "scheme": "Disaster Relief",
+              "budget": 10.0
+            },
+            {
+              "scheme": "Chabahar Port",
+              "budget": 100.0
+            },
+            {
+              "scheme": "Mauritius",
+              "budget": 370.0
+            },
+            {
+              "scheme": "Seychelles",
+              "budget": 40.0
+            },
+            {
+              "scheme": "Support to International Training/Programmes",
+              "budget": 769.0
+            },
+            {
+              "scheme": "Aid for Cultural & Heritage Project",
+              "budget": 15.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Finance",
+      "total": 1858158.52,
+      "departments": [
+        {
+          "department": "Department of Economic Affairs",
+          "total": 80272.91,
+          "schemes": [
+            {
+              "scheme": "National Investment and Infrastructure Fund (NIIF)",
+              "budget": 1501.05
+            },
+            {
+              "scheme": "Viability Gap Funding",
+              "budget": 500.0
+            },
+            {
+              "scheme": "Lines of Credit under Indian Development and Economic Assistance Scheme (IDEAS)",
+              "budget": 3849.0
+            },
+            {
+              "scheme": "India Infrastructure Project Development Fund (IIPDF)",
+              "budget": 25.0
+            }
+          ]
+        },
+        {
+          "department": "Department of Expenditure",
+          "total": 504.14,
+          "schemes": []
+        },
+        {
+          "department": "Department of Financial Services",
+          "total": 2845.15,
+          "schemes": [
+            {
+              "scheme": "Recapitalization of Public Sector Banks",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Subscription to the Share Capital of Export-Import Bank of India",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Recapitalization of Insurance Companies",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Subscription to Share Captial of National Bank for Agricultural and Rural Development (NABARD)",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Equity Support to Industrial Finance Corporation of India (IFCI)",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Grants to ICICI Bank for Externally Aided Components",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Contribution to Financial Inclusion Fund (FIF) of NABARD to promote AADHAR Enabled Payment System",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Grants to NABARD to settle the claims under Indo-Swiss Cooperation-VI",
+              "budget": 0.83
+            },
+            {
+              "scheme": "Subsidy to National Housing Bank for Interest Subvention on Housing Loans",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Redemption of Securities issued to Stressed Assets Stablization Fund (SASF)",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Government Co-contribution to Atal Pension Yojana",
+              "budget": 521.0
+            },
+            {
+              "scheme": "Interest Subsidy to LIC for Pension Plan for Senior Citizens",
+              "budget": 134.96
+            },
+            {
+              "scheme": "Pradhan Mantri Jeevan Jyoti Bima Yojna and Pradhan Mantri Suraksha Bima Yojna (Publicity and Awareness)",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Loan Guarantee Scheme for Covid Affected Sectors (LGSCAS)",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Pradhan Mantri Vaya Vandan Yojana (PMVVY)",
+              "budget": 422.78
+            },
+            {
+              "scheme": "Pradhan Mantri Mudra Yojana (PMMY)(through NCGTC)",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Publicity and awareness for Pradhan Mantri Mudra Yojana (PMMY) and other initiatives by MUDRA Ltd.",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Credit Guarantee Scheme for Micro Finance Institutions (CGSMFI)",
+              "budget": 50.0
+            },
+            {
+              "scheme": "Stand-Up India (through NCGTC)",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Publicity and awareness for Stand-Up India and other initiatives by SIDBI",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Subsidy to small Industries Development Bank of India (SIDBI) on Interest Subvention of 2 percent for prompt repayment of Shishu Loans (subsidies)",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Incentive scheme for promotion of RuPay Debit Cards and low-value BHIM-UPI transactions (person-to-merchant)",
+              "budget": 1441.0
+            }
+          ]
+        },
+        {
+          "department": "Department of Public Enterprises",
+          "total": 26.6,
+          "schemes": [
+            {
+              "scheme": "Counselling, Retraining and Redeployment (CRR) Scheme",
+              "budget": 2.0
+            },
+            {
+              "scheme": "Research, Development and Consultancy on generic issues related to CPSEs and State Level Public Enterprises",
+              "budget": 6.38
+            }
+          ]
+        },
+        {
+          "department": "Department of Investment and Public Asset Management (DIPAM)",
+          "total": 49.74,
+          "schemes": []
+        },
+        {
+          "department": "Department of Revenue",
+          "total": 152093.79,
+          "schemes": []
+        },
+        {
+          "department": "Direct Taxes",
+          "total": 10338.38,
+          "schemes": []
+        },
+        {
+          "department": "Indirect Taxes",
+          "total": 41097.98,
+          "schemes": [
+            {
+              "scheme": "Onetime payment of Arrears.",
+              "budget": 4119.74
+            },
+            {
+              "scheme": "Remission of Duties and Taxes on Exported Products (RoDTEP)",
+              "budget": 16575.0
+            },
+            {
+              "scheme": "Rebate on State and Central Taxes and Levies (RoSCTL)",
+              "budget": 9246.0
+            }
+          ]
+        },
+        {
+          "department": "Indian Audit and Accounts Department",
+          "total": 5961.48,
+          "schemes": []
+        },
+        {
+          "department": "Interest Payments",
+          "total": 1162940.29,
+          "schemes": []
+        },
+        {
+          "department": "Repayment of Debt",
+          "total": 0.0,
+          "schemes": []
+        },
+        {
+          "department": "Pensions",
+          "total": 79241.0,
+          "schemes": []
+        },
+        {
+          "department": "Transfers to States",
+          "total": 322787.06,
+          "schemes": []
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+      "total": 7137.68,
+      "departments": [
+        {
+          "department": "Department of Fisheries",
+          "total": 2616.44,
+          "schemes": [
+            {
+              "scheme": "Fisheries and Aquaculture Infrastructure Development Fund (FIDF)",
+              "budget": 30.0
+            }
+          ]
+        },
+        {
+          "department": "Department of Animal Husbandry and Dairying",
+          "total": 4521.24,
+          "schemes": [
+            {
+              "scheme": "Livestock Health and Disease Control Programme",
+              "budget": 2465.0
+            },
+            {
+              "scheme": "Infrastructure Development Fund",
+              "budget": 370.0
+            },
+            {
+              "scheme": "Dairy Development",
+              "budget": 371.0
+            },
+            {
+              "scheme": "Rashtriya Gokul Mission",
+              "budget": 700.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Food Processing Industries",
+      "total": 3290.0,
+      "departments": [
+        {
+          "department": "Ministry of Food Processing Industries",
+          "total": 3290.0,
+          "schemes": [
+            {
+              "scheme": "Pradhan Mantri Kisan Sampada Yojana",
+              "budget": 729.0
+            },
+            {
+              "scheme": "Production-Linked Incentive Scheme for Food Processing Industry",
+              "budget": 1444.02
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Health and Family Welfare",
+      "total": 90958.63,
+      "departments": [
+        {
+          "department": "Department of Health and Family Welfare",
+          "total": 87656.9,
+          "schemes": [
+            {
+              "scheme": "Pardhan Mantri Swasthya Suraksha Yojana",
+              "budget": 2200.0
+            },
+            {
+              "scheme": "National AIDS and STD Control Programme",
+              "budget": 2892.0
+            },
+            {
+              "scheme": "Global Fund Grant under Covid 19 Response Mechanism 2021(EAP)",
+              "budget": 125.0
+            },
+            {
+              "scheme": "Family Welfare Schemes",
+              "budget": 694.72
+            },
+            {
+              "scheme": "Establishment and strengthening of NCDC Branches and Health Initiatives Inter Sectoral coordination for preparation and control of Zoonotic Diseases and other neglected tropical diseases surveillance of Viral Hepatitis Anti Microbial Resistance",
+              "budget": 52.0
+            },
+            {
+              "scheme": "National Pharmacovigilance Programme",
+              "budget": 8.53
+            },
+            {
+              "scheme": "Development of Nursing Services",
+              "budget": 22.0
+            },
+            {
+              "scheme": "Health Sector Disaster Preparedness and Response and Human Resources Development for Emergency Medical Services",
+              "budget": 94.0
+            },
+            {
+              "scheme": "National Organ Transplant Programme",
+              "budget": 15.0
+            },
+            {
+              "scheme": "Pradhan Mantri Garib Kalyan Package - Insurance Scheme for Health Care Workers fighting COVID-19",
+              "budget": 0.1
+            },
+            {
+              "scheme": "Pradhan Mantri Ayushman Bharat Health Infrastructure Mission (PMABHIM) (Health)",
+              "budget": 556.57
+            },
+            {
+              "scheme": "National Tele Mental Health Programme",
+              "budget": 90.0
+            },
+            {
+              "scheme": "National Digital Health Mission - NHM",
+              "budget": 200.0
+            }
+          ]
+        },
+        {
+          "department": "Department of Health Research",
+          "total": 3301.73,
+          "schemes": [
+            {
+              "scheme": "Setting up of nation wide network of laboratories for managing epidemics and national calamities",
+              "budget": 60.0
+            },
+            {
+              "scheme": "Development of Infrastructure for Promotion of Health Research",
+              "budget": 80.0
+            },
+            {
+              "scheme": "Development of tools/support to prevent outbreaks of epidemics",
+              "budget": 8.0
+            },
+            {
+              "scheme": "Human Resource and Capacity Development",
+              "budget": 147.04
+            },
+            {
+              "scheme": "Prime Minister's Ayushman Bharat Health Infrastructure Mission (PM-ABHIM)-Bio Security Preparedness and strengthening Pandemic Research and Multi Sector and National Institutions and Platform for One Health",
+              "budget": 212.21
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Heavy Industries",
+      "total": 7242.0,
+      "departments": [
+        {
+          "department": "Ministry of Heavy Industries",
+          "total": 7242.0,
+          "schemes": [
+            {
+              "scheme": "Scheme for Faster Adoption and Manufacturing of (Hybrid and) Electric Vehicle in India - (FAME - India).",
+              "budget": 2671.33
+            },
+            {
+              "scheme": "Production Linked Incentive (PLI) Scheme for Automobiles and Auto Components",
+              "budget": 3500.0
+            },
+            {
+              "scheme": "Production Linked Incentive (PLI) Scheme for National Programme on Advanced Chemistry Cell (ACC) Battery Storage",
+              "budget": 250.0
+            },
+            {
+              "scheme": "Electric Mobility Promotion Scheme-2024",
+              "budget": 500.0
+            },
+            {
+              "scheme": "Enhancement of Competitiveness in the Indian Capital Goods Sector",
+              "budget": 250.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Home Affairs",
+      "total": 219643.31,
+      "departments": [
+        {
+          "department": "Ministry of Home Affairs",
+          "total": 6458.24,
+          "schemes": [
+            {
+              "scheme": "Relief and Rehabilitation for migrants and repatriates",
+              "budget": 539.72
+            },
+            {
+              "scheme": "Freedom Fighters (pension and other benefits)",
+              "budget": 603.33
+            },
+            {
+              "scheme": "Helicopter Services",
+              "budget": 115.0
+            },
+            {
+              "scheme": "Infrastructure for Disaster Management",
+              "budget": 152.0
+            },
+            {
+              "scheme": "Other Disaster Management Schemes",
+              "budget": 136.63
+            },
+            {
+              "scheme": "Civic Action Programme and Media Plan",
+              "budget": 18.0
+            },
+            {
+              "scheme": "Establishment of Bhartiya Bhasha Anubhag",
+              "budget": 56.0
+            },
+            {
+              "scheme": "Holistic Development of Islands in Union Territories",
+              "budget": 88.73
+            }
+          ]
+        },
+        {
+          "department": "Cabinet",
+          "total": 1248.91,
+          "schemes": []
+        },
+        {
+          "department": "Police",
+          "total": 143275.9,
+          "schemes": [
+            {
+              "scheme": "IVFRT (Immigration, Visa and Foreigners Registration and Tracking)",
+              "budget": 226.25
+            },
+            {
+              "scheme": "BSF Air Wing, Aircrafts, River Boats and Helibase",
+              "budget": 164.1
+            },
+            {
+              "scheme": "Border Infrastructure and Management",
+              "budget": 3756.51
+            },
+            {
+              "scheme": "Police Infrastructure",
+              "budget": 3152.36
+            },
+            {
+              "scheme": "Schemes for Safety of Women",
+              "budget": 1105.0
+            },
+            {
+              "scheme": "Modernization Plan IV for Central Armed Police Forces",
+              "budget": 181.21
+            },
+            {
+              "scheme": "Inter Operable Criminal Justice System",
+              "budget": 250.0
+            },
+            {
+              "scheme": "Modernization of Prisons",
+              "budget": 300.0
+            },
+            {
+              "scheme": "Support to poor prisoners",
+              "budget": 20.0
+            },
+            {
+              "scheme": "National Forensic Infrastructure Enhancement Scheme",
+              "budget": 150.0
+            }
+          ]
+        },
+        {
+          "department": "Andaman and Nicobar Islands",
+          "total": 5985.82,
+          "schemes": []
+        },
+        {
+          "department": "Chandigarh",
+          "total": 5862.62,
+          "schemes": []
+        },
+        {
+          "department": "Dadra and Nagar Haveli and Daman and Diu",
+          "total": 2648.97,
+          "schemes": []
+        },
+        {
+          "department": "Ladakh",
+          "total": 5958.0,
+          "schemes": []
+        },
+        {
+          "department": "Lakshadweep",
+          "total": 1490.1,
+          "schemes": []
+        },
+        {
+          "department": "Transfers to Delhi",
+          "total": 1168.01,
+          "schemes": []
+        },
+        {
+          "department": "Transfers to Jammu and Kashmir",
+          "total": 42277.74,
+          "schemes": []
+        },
+        {
+          "department": "Transfers to Puducherry",
+          "total": 3269.0,
+          "schemes": []
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Housing and Urban Affairs",
+      "total": 82576.57,
+      "departments": [
+        {
+          "department": "Ministry of Housing and Urban Affairs",
+          "total": 82576.57,
+          "schemes": [
+            {
+              "scheme": "Metro Projects",
+              "budget": 21335.98
+            },
+            {
+              "scheme": "National Capital Region Transport Corporation",
+              "budget": 3596.0
+            },
+            {
+              "scheme": "Residential",
+              "budget": 1100.0
+            },
+            {
+              "scheme": "Non-residential",
+              "budget": 2599.99
+            },
+            {
+              "scheme": "Prime Minister's Street Vendors' Atmanirbhar Nidhi (PM SVANIDHI)",
+              "budget": 326.32
+            },
+            {
+              "scheme": "Public Health Engineering (PHE) Sector Development Scheme",
+              "budget": 3.0
+            },
+            {
+              "scheme": "Scheme for Interest Subvention on Home Loan",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Identification of 4 Academic Institutions as Centre of Excellence in Urban Planning/ Design",
+              "budget": 1000.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Information and Broadcasting",
+      "total": 4342.55,
+      "departments": [
+        {
+          "department": "Ministry of Information and Broadcasting",
+          "total": 4342.55,
+          "schemes": [
+            {
+              "scheme": "Broadcasting Infrastructure Network Development",
+              "budget": 500.0
+            },
+            {
+              "scheme": "Development Communication and Dissemination of Filmic Content",
+              "budget": 350.0
+            },
+            {
+              "scheme": "Development Communication and Information Dissemination",
+              "budget": 149.31
+            },
+            {
+              "scheme": "Supporting Community Radio Movement in India",
+              "budget": 5.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Jal Shakti",
+      "total": 98713.78,
+      "departments": [
+        {
+          "department": "Department of Water Resources, River Development and Ganga Rejuvenation",
+          "total": 21323.1,
+          "schemes": [
+            {
+              "scheme": "Farakka Barrage Project",
+              "budget": 80.0
+            },
+            {
+              "scheme": "Dam Rehabilitation and Improvement Programme",
+              "budget": 46.98
+            },
+            {
+              "scheme": "National Ganga Plan",
+              "budget": 3345.7
+            },
+            {
+              "scheme": "River Basin Management",
+              "budget": 154.79
+            },
+            {
+              "scheme": "Development of Water Resources Information System",
+              "budget": 115.0
+            },
+            {
+              "scheme": "Ground Water Management and Regulation",
+              "budget": 325.0
+            },
+            {
+              "scheme": "National Hydrology Project",
+              "budget": 661.2
+            },
+            {
+              "scheme": "Research and Development and Implementation of National Water Mission",
+              "budget": 67.06
+            },
+            {
+              "scheme": "Atal Bhujal Yojna",
+              "budget": 1778.0
+            }
+          ]
+        },
+        {
+          "department": "Department of Drinking Water and Sanitation",
+          "total": 77390.68,
+          "schemes": []
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Labour and Employment",
+      "total": 22531.47,
+      "departments": [
+        {
+          "department": "Ministry of Labour and Employment",
+          "total": 22531.47,
+          "schemes": [
+            {
+              "scheme": "Labour and Employment Statistical System (LESS)",
+              "budget": 50.0
+            },
+            {
+              "scheme": "Labour Welfare Scheme",
+              "budget": 50.68
+            },
+            {
+              "scheme": "Employees Pension Scheme, 1995",
+              "budget": 10950.0
+            },
+            {
+              "scheme": "Social Security for Plantation Workers in Assam",
+              "budget": 66.2
+            },
+            {
+              "scheme": "Pradhan Mantri Shram Yogi Maandhan",
+              "budget": 177.24
+            },
+            {
+              "scheme": "Pradhan Mantri Karam Yogi Maandhan",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Aatmanirbhar Bharat Rojgar Yojana",
+              "budget": 150.0
+            },
+            {
+              "scheme": "National database for Unorganized Workers",
+              "budget": 176.84
+            },
+            {
+              "scheme": "National Child Labour Project including grants in aid to voluntary agencies and reimbursement of assistance to bonded labour",
+              "budget": 6.0
+            },
+            {
+              "scheme": "Coaching and Guidance for SC,ST and Other Backward Classes",
+              "budget": 20.6
+            },
+            {
+              "scheme": "National Career Services",
+              "budget": 58.0
+            },
+            {
+              "scheme": "New Employment Generation Scheme",
+              "budget": 10000.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Law and Justice",
+      "total": 6788.33,
+      "departments": [
+        {
+          "department": "Law and Justice",
+          "total": 5940.95,
+          "schemes": [
+            {
+              "scheme": "Designing Innovative Solutions for Holistic Access to Justice in India(DISHA)",
+              "budget": 48.0
+            },
+            {
+              "scheme": "e-Courts Phase III",
+              "budget": 1500.0
+            },
+            {
+              "scheme": "Legal Aid Defense Counsel System (LADCS)",
+              "budget": 200.0
+            },
+            {
+              "scheme": "Expansion of Supreme Court Building",
+              "budget": 86.63
+            }
+          ]
+        },
+        {
+          "department": "Election Commission",
+          "total": 321.89,
+          "schemes": []
+        },
+        {
+          "department": "Supreme Court of India",
+          "total": 525.49,
+          "schemes": []
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Micro, Small and Medium Enterprises",
+      "total": 22137.95,
+      "departments": [
+        {
+          "department": "Ministry of Micro, Small and Medium Enterprises",
+          "total": 22137.95,
+          "schemes": [
+            {
+              "scheme": "Scheme for Fund for Regeneration of Traditional Industries (SFURTI)",
+              "budget": 260.0
+            },
+            {
+              "scheme": "Coir Vikas Yojana",
+              "budget": 103.1
+            },
+            {
+              "scheme": "Khadi Gramodyog Vikas Yojana",
+              "budget": 1037.19
+            },
+            {
+              "scheme": "ASPIRE (Promotion of Innovation, Rural Industry and Entrepreneurship)",
+              "budget": 20.0
+            },
+            {
+              "scheme": "MSME Champions Scheme",
+              "budget": 54.72
+            },
+            {
+              "scheme": "Prime Minister Employment Generation Programme (PMEGP)",
+              "budget": 2300.0
+            },
+            {
+              "scheme": "Credit Support Programme",
+              "budget": 0.04
+            },
+            {
+              "scheme": "Guarantee Emergency Credit Line (GECL) facility to eligible MSME borrowers",
+              "budget": 9812.93
+            },
+            {
+              "scheme": "Credit Linked Capital Subsidy (CLCS)",
+              "budget": 0.55
+            },
+            {
+              "scheme": "Procurement and Marketing Support Scheme",
+              "budget": 65.0
+            },
+            {
+              "scheme": "Studies, Publicity & International Cooperation (SPIC)",
+              "budget": 27.0
+            },
+            {
+              "scheme": "Assistance to Training Institutions",
+              "budget": 30.0
+            },
+            {
+              "scheme": "Fund of Funds",
+              "budget": 575.0
+            },
+            {
+              "scheme": "Entrepreneurship cum Skill Development Programme (ESDP)",
+              "budget": 99.0
+            },
+            {
+              "scheme": "Establishment of New Technology Centres",
+              "budget": 450.0
+            },
+            {
+              "scheme": "Technology Centre Systems Programme (TCSP) EAP",
+              "budget": 350.0
+            },
+            {
+              "scheme": "Raising and Accelerating MSME Performance - RAMP",
+              "budget": 1170.0
+            },
+            {
+              "scheme": "Micro and Small Enterprise-Cluster Development Programme (MSE-CDP)",
+              "budget": 400.0
+            },
+            {
+              "scheme": "Tool Rooms & Technical Institutions (TR/TIs)",
+              "budget": 140.0
+            },
+            {
+              "scheme": "Promotion of MSMEs in NER and Sikkim",
+              "budget": 50.0
+            },
+            {
+              "scheme": "National Schedule Caste/Schedule Tribe Hub Centre",
+              "budget": 99.92
+            },
+            {
+              "scheme": "PM Vishwakarma",
+              "budget": 4824.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Mines",
+      "total": 1941.06,
+      "departments": [
+        {
+          "department": "Ministry of Mines",
+          "total": 1941.06,
+          "schemes": []
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Minority Affairs",
+      "total": 3183.24,
+      "departments": [
+        {
+          "department": "Ministry of Minority Affairs",
+          "total": 3183.24,
+          "schemes": [
+            {
+              "scheme": "Quami Waqf Board Taraqqiati Scheme and Sahari Waqf Sampati Vikas Yojna",
+              "budget": 16.0
+            },
+            {
+              "scheme": "Education Empowerment",
+              "budget": 1575.72
+            },
+            {
+              "scheme": "Skill Development and Livelihoods",
+              "budget": 3.0
+            },
+            {
+              "scheme": "Special Programmes of Minorities",
+              "budget": 26.0
+            },
+            {
+              "scheme": "PM-Viraasat Ka Samvardhan (PM VIKAS)",
+              "budget": 500.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of New and Renewable Energy",
+      "total": 19100.0,
+      "departments": [
+        {
+          "department": "Ministry of New and Renewable Energy",
+          "total": 19100.0,
+          "schemes": [
+            {
+              "scheme": "Solar Power (Off-Grid)",
+              "budget": 24.01
+            },
+            {
+              "scheme": "Interest Payment and Issuing Expenses on the Bonds",
+              "budget": 124.39
+            },
+            {
+              "scheme": "Solar Power (Grid)",
+              "budget": 8500.35
+            },
+            {
+              "scheme": "Kisan Urja Suraksha evam Utthaan Mahabhiyan (KUSUM )",
+              "budget": 1496.0
+            },
+            {
+              "scheme": "PM Surya Ghar Muft Bijli Yojana",
+              "budget": 6250.0
+            },
+            {
+              "scheme": "Wind Power (Grid)",
+              "budget": 800.0
+            },
+            {
+              "scheme": "Hydro Power (Grid)",
+              "budget": 50.0
+            },
+            {
+              "scheme": "Hydro Power (Off-Grid)",
+              "budget": 1.0
+            },
+            {
+              "scheme": "Green Energy Corridor",
+              "budget": 600.0
+            },
+            {
+              "scheme": "National Green Hydrogen Mission",
+              "budget": 600.0
+            },
+            {
+              "scheme": "Bio Power (Grid)",
+              "budget": 80.0
+            },
+            {
+              "scheme": "Bio Power (Off-Grid)",
+              "budget": 125.0
+            },
+            {
+              "scheme": "Biogas Programme (Off-Grid)",
+              "budget": 95.0
+            },
+            {
+              "scheme": "Monitoring and Evaluation",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Information and Public Advertising (I&PA)",
+              "budget": 10.0
+            },
+            {
+              "scheme": "Human Resources Development and Training",
+              "budget": 47.0
+            },
+            {
+              "scheme": "International Relations",
+              "budget": 4.0
+            },
+            {
+              "scheme": "Research and Development",
+              "budget": 46.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Panchayati Raj",
+      "total": 1183.64,
+      "departments": [
+        {
+          "department": "Ministry of Panchayati Raj",
+          "total": 1183.64,
+          "schemes": [
+            {
+              "scheme": "Svamitva",
+              "budget": 70.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Parliamentary Affairs",
+      "total": 64.0,
+      "departments": [
+        {
+          "department": "Ministry of Parliamentary Affairs",
+          "total": 64.0,
+          "schemes": []
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+      "total": 2379.87,
+      "departments": [
+        {
+          "department": "Ministry of Personnel, Public Grievances and Pensions",
+          "total": 2328.56,
+          "schemes": [
+            {
+              "scheme": "Training Schemes",
+              "budget": 120.56
+            },
+            {
+              "scheme": "National Programme for Civil Services Capacity Building",
+              "budget": 86.13
+            },
+            {
+              "scheme": "Scheme for Administrative Reforms",
+              "budget": 80.0
+            },
+            {
+              "scheme": "Pensioner's Portal",
+              "budget": 3.5
+            },
+            {
+              "scheme": "Integrated Building for Institute of Secretariat Training and Management (ISTM) and other Institute of Department of Personnel and Training (DoPT)",
+              "budget": 55.5
+            }
+          ]
+        },
+        {
+          "department": "Central Vigilance Commission",
+          "total": 51.31,
+          "schemes": []
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Petroleum and Natural Gas",
+      "total": 15930.26,
+      "departments": [
+        {
+          "department": "Ministry of Petroleum and Natural Gas",
+          "total": 15930.26,
+          "schemes": [
+            {
+              "scheme": "Payment of differential royalty to State Governments",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Indian Strategic Petroleum Reserve Limited (ISPRL) Phase II (Construction of Cavems)",
+              "budget": 408.0
+            },
+            {
+              "scheme": "Payment to ISPRL for Strategic Crude Oil Reserve (O and M)",
+              "budget": 220.04
+            },
+            {
+              "scheme": "Pradhan Mantri JI-VAN Yojna",
+              "budget": 117.41
+            },
+            {
+              "scheme": "Direct Benefit Transfer - LPG",
+              "budget": 1500.0
+            },
+            {
+              "scheme": "LPG Connection to Poor Households",
+              "budget": 9094.0
+            },
+            {
+              "scheme": "Other subsidy payable including for North Eastern Region",
+              "budget": 1200.0
+            },
+            {
+              "scheme": "Feedstock Subsidy to BCPL/Assam Gas Cracker Complex",
+              "budget": 131.0
+            },
+            {
+              "scheme": "Project Management Expenditure",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Indradhanush Gas Grid Limited(IGGL)-part of the North East Natural Gas Pipeline Grid",
+              "budget": 1000.0
+            },
+            {
+              "scheme": "Numaligarh Refinery Expansion Project",
+              "budget": 275.0
+            },
+            {
+              "scheme": "Capital Support to Oil Marketing Companies",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Scheme for promotion of flagging of merchant ships in India",
+              "budget": 387.26
+            },
+            {
+              "scheme": "Global Biofuels Alliance",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Scheme for providing financial support for collection of biomass",
+              "budget": 150.0
+            },
+            {
+              "scheme": "Payment to ISPRL for purchase of land",
+              "budget": 0.01
+            },
+            {
+              "scheme": "Scheme for Development of Pipeline infrastructure for injection of Compressed Bio Gas (CBG) in City Gas Distribution (CGD) Network",
+              "budget": 497.25
+            },
+            {
+              "scheme": "Mission Anveshan",
+              "budget": 332.0
+            },
+            {
+              "scheme": "Appraisal of areas in India's Extended Continental Shelf (ECS)",
+              "budget": 388.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Planning",
+      "total": 837.26,
+      "departments": [
+        {
+          "department": "Ministry of Planning",
+          "total": 837.26,
+          "schemes": [
+            {
+              "scheme": "Atal Innovation Mission(AIM) including Self Employment and Talent Utilization (SETU)",
+              "budget": 155.0
+            },
+            {
+              "scheme": "Ongoing Programme and Schemes",
+              "budget": 4.0
+            },
+            {
+              "scheme": "Official Development Assistance for Sustainable Development Goals (EAP Component)",
+              "budget": 433.0
+            },
+            {
+              "scheme": "State Support Mission",
+              "budget": 40.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Ports, Shipping and Waterways",
+      "total": 2377.49,
+      "departments": [
+        {
+          "department": "Ministry of Ports, Shipping and Waterways",
+          "total": 2377.49,
+          "schemes": [
+            {
+              "scheme": "Research and Development (Ports)",
+              "budget": 1.51
+            },
+            {
+              "scheme": "Sagarmala",
+              "budget": 700.0
+            },
+            {
+              "scheme": "Assistance to Ship Building, Research and Development",
+              "budget": 100.0
+            },
+            {
+              "scheme": "Grants to Inland Water Transport Authority of India",
+              "budget": 5.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Power",
+      "total": 20502.0,
+      "departments": [
+        {
+          "department": "Ministry of Power",
+          "total": 20502.0,
+          "schemes": [
+            {
+              "scheme": "Energy Conservation Schemes",
+              "budget": 25.0
+            },
+            {
+              "scheme": "Strengthening of Power Systems",
+              "budget": 2416.02
+            },
+            {
+              "scheme": "Power System Development Fund",
+              "budget": 1200.0
+            },
+            {
+              "scheme": "Reform Linked Distribution Scheme",
+              "budget": 12585.0
+            },
+            {
+              "scheme": "Scheme for Promoting Energy Efficiency activities in different sectors of Indian Economy",
+              "budget": 40.0
+            },
+            {
+              "scheme": "Viability Gap Funding for development of Battery Energy Storage Systems",
+              "budget": 96.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "The President, Parliament, Union Public Service Commission and the Secretariat of the Vice President",
+      "total": 1884.92,
+      "departments": [
+        {
+          "department": "Staff, Household and Allowances of the President",
+          "total": 144.18,
+          "schemes": []
+        },
+        {
+          "department": "Lok Sabha",
+          "total": 862.0,
+          "schemes": []
+        },
+        {
+          "department": "Rajya Sabha",
+          "total": 441.42,
+          "schemes": []
+        },
+        {
+          "department": "Secretariat of the Vice-President",
+          "total": 11.61,
+          "schemes": []
+        },
+        {
+          "department": "Union Public Service Commission",
+          "total": 425.71,
+          "schemes": []
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Railways",
+      "total": 255393.0,
+      "departments": [
+        {
+          "department": "Ministry of Railways",
+          "total": 255393.0,
+          "schemes": [
+            {
+              "scheme": "Transfer to Central Road and Infrastructure Fund",
+              "budget": 11000.0
+            },
+            {
+              "scheme": "Transfer to National Investment Fund",
+              "budget": 14800.0
+            },
+            {
+              "scheme": "New Lines",
+              "budget": 34602.75
+            },
+            {
+              "scheme": "Gauge Conversion",
+              "budget": 4719.5
+            },
+            {
+              "scheme": "Doubling",
+              "budget": 29312.19
+            },
+            {
+              "scheme": "Computerisation",
+              "budget": 735.62
+            },
+            {
+              "scheme": "Traffic Facilities - Yard Remodelling and Others",
+              "budget": 8982.94
+            },
+            {
+              "scheme": "Railway Research",
+              "budget": 72.01
+            },
+            {
+              "scheme": "Rolling Stock",
+              "budget": 40313.78
+            },
+            {
+              "scheme": "Leased assets - Payment of Capital Component",
+              "budget": 24270.0
+            },
+            {
+              "scheme": "Road Safety Works - Level Crossings",
+              "budget": 705.18
+            },
+            {
+              "scheme": "Road Safety Works - Road Over/Under Bridges",
+              "budget": 9274.69
+            },
+            {
+              "scheme": "Track Renewals",
+              "budget": 17651.98
+            },
+            {
+              "scheme": "Bridge Works, Turnnel Works and Approaches",
+              "budget": 2137.46
+            },
+            {
+              "scheme": "Signalling and Telecom",
+              "budget": 4647.28
+            },
+            {
+              "scheme": "Electrification Projects",
+              "budget": 6472.3
+            },
+            {
+              "scheme": "Other Electrical Works",
+              "budget": 1681.87
+            },
+            {
+              "scheme": "Machinery and Plant",
+              "budget": 715.02
+            },
+            {
+              "scheme": "Workshop Including Production Units",
+              "budget": 4903.68
+            },
+            {
+              "scheme": "Staff Welfare",
+              "budget": 815.32
+            },
+            {
+              "scheme": "Customer Amenities",
+              "budget": 15510.75
+            },
+            {
+              "scheme": "Investment in PSU/JV/SPV etc.",
+              "budget": 32760.58
+            },
+            {
+              "scheme": "Other Specified Works",
+              "budget": 1222.26
+            },
+            {
+              "scheme": "Training/Human Resource Development",
+              "budget": 416.83
+            },
+            {
+              "scheme": "Stores Suspense",
+              "budget": 25809.21
+            },
+            {
+              "scheme": "Manufacturing Suspense",
+              "budget": 59298.89
+            },
+            {
+              "scheme": "Miscellaneous Advances",
+              "budget": 401.33
+            },
+            {
+              "scheme": "Metropolitan Transportation Projects",
+              "budget": 1090.12
+            },
+            {
+              "scheme": "Transfer to Rashtirya Rail Sanraksha Kosh",
+              "budget": 10000.0
+            },
+            {
+              "scheme": "Transfer to Railway Safety Fund",
+              "budget": 45000.0
+            },
+            {
+              "scheme": "Sovereign Green Fund",
+              "budget": 15000.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Road Transport and Highways",
+      "total": 278000.0,
+      "departments": [
+        {
+          "department": "Ministry of Road Transport and Highways",
+          "total": 278000.0,
+          "schemes": [
+            {
+              "scheme": "National Highways Authority of India",
+              "budget": 168464.0
+            },
+            {
+              "scheme": "Road Works",
+              "budget": 109093.19
+            },
+            {
+              "scheme": "Research, Training, Studies and Other Road Safety Schemes",
+              "budget": 272.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Rural Development",
+      "total": 180233.43,
+      "departments": [
+        {
+          "department": "Department of Rural Development",
+          "total": 177566.19,
+          "schemes": [
+            {
+              "scheme": "Management Support to Rural Development Programs and Strengthening of District Planning Process",
+              "budget": 153.0
+            },
+            {
+              "scheme": "Grants to National Institute of Rural Development",
+              "budget": 97.53
+            }
+          ]
+        },
+        {
+          "department": "Department of Land Resources",
+          "total": 2667.24,
+          "schemes": [
+            {
+              "scheme": "Land Records Modernization Programme",
+              "budget": 141.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Science and Technology",
+      "total": 16628.12,
+      "departments": [
+        {
+          "department": "Department of Science and Technology",
+          "total": 8029.01,
+          "schemes": [
+            {
+              "scheme": "Science and Technology Institutional and Human Capacity Building",
+              "budget": 900.0
+            },
+            {
+              "scheme": "Research and Development",
+              "budget": 391.0
+            },
+            {
+              "scheme": "Innovation, Technology Development and Deployment",
+              "budget": 536.61
+            },
+            {
+              "scheme": "National Mission on Interdisciplinary Cyber Physical Systems",
+              "budget": 564.46
+            },
+            {
+              "scheme": "National Quantum Mission (NQM)",
+              "budget": 427.0
+            }
+          ]
+        },
+        {
+          "department": "Department of Biotechnology",
+          "total": 2275.7,
+          "schemes": [
+            {
+              "scheme": "Biotechnology Research and Development",
+              "budget": 1100.0
+            },
+            {
+              "scheme": "Industrial and Entrepreneurship Development",
+              "budget": 74.0
+            }
+          ]
+        },
+        {
+          "department": "Department of Scientific and Industrial Research",
+          "total": 6323.41,
+          "schemes": [
+            {
+              "scheme": "Industrial Research and Development",
+              "budget": 16.5
+            },
+            {
+              "scheme": "Assistance to PSEs for Other Scientific Research Schemes",
+              "budget": 15.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Skill Development and Entrepreneurship",
+      "total": 4520.0,
+      "departments": [
+        {
+          "department": "Ministry of Skill Development and Entrepreneurship",
+          "total": 4520.0,
+          "schemes": [
+            {
+              "scheme": "Skill India Programme.",
+              "budget": 2685.64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Social Justice and Empowerment",
+      "total": 14225.47,
+      "departments": [
+        {
+          "department": "Department of Social Justice and Empowerment",
+          "total": 13000.2,
+          "schemes": [
+            {
+              "scheme": "Scholarships for Higher Education for Young Achievers Scheme (SHREYAS) for SCs",
+              "budget": 428.0
+            },
+            {
+              "scheme": "Scheme of Residential Education for Students in High School in Targeted Area (SRESHTA) for SCs",
+              "budget": 133.07
+            },
+            {
+              "scheme": "Vanchit Ikai Samooh aur Vargon ki Arthik Sahayata (VISVAS) Yojana",
+              "budget": 10.02
+            },
+            {
+              "scheme": "Pradhan Mantri Dakshta Aur Kushalta Sampann Hitgrahi (PM DAKSH) Yojana",
+              "budget": 130.0
+            },
+            {
+              "scheme": "Venture Capital Fund for SCs and OBCs",
+              "budget": 50.0
+            },
+            {
+              "scheme": "Scholarships for Higher Education for Young Achievers Scheme (SHREYAS) for OBCs and EBCs",
+              "budget": 80.0
+            },
+            {
+              "scheme": "Scheme for Economic Empowerment of DNT/NT/SNTs (SEED)",
+              "budget": 39.4
+            },
+            {
+              "scheme": "Support for Marginalized Individuals for Livelihood & Enterprise (SMILE)",
+              "budget": 98.46
+            },
+            {
+              "scheme": "Information, Monitoring, Evaluation and Social Audit",
+              "budget": 10.0
+            },
+            {
+              "scheme": "National Action for Mechanised Sanitation Ecosystem (NAMASTE)",
+              "budget": 116.94
+            }
+          ]
+        },
+        {
+          "department": "Department of Empowerment of Persons with Disabilities",
+          "total": 1225.27,
+          "schemes": [
+            {
+              "scheme": "Assistance to Disabled Persons for Purchase/Fitting of Aids and Applicances",
+              "budget": 315.0
+            },
+            {
+              "scheme": "Deendayal Disabled Rehabilitation Scheme",
+              "budget": 165.0
+            },
+            {
+              "scheme": "Scheme for implementation of Persons with Disability Act",
+              "budget": 135.33
+            },
+            {
+              "scheme": "Scholarship for Students with Disabilidties",
+              "budget": 142.68
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Department of Space",
+      "total": 13042.75,
+      "departments": [
+        {
+          "department": "Department of Space",
+          "total": 13042.75,
+          "schemes": [
+            {
+              "scheme": "Space Technology",
+              "budget": 10087.52
+            },
+            {
+              "scheme": "Space Applications",
+              "budget": 1611.71
+            },
+            {
+              "scheme": "Space Sciences",
+              "budget": 133.57
+            },
+            {
+              "scheme": "INSAT Satellite Systems",
+              "budget": 276.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Statistics and Programme Implementation",
+      "total": 5453.83,
+      "departments": [
+        {
+          "department": "Ministry of Statistics and Programme Implementation",
+          "total": 5453.83,
+          "schemes": [
+            {
+              "scheme": "Member of Parliament Local Area Development Scheme (MPLAD)",
+              "budget": 3955.0
+            },
+            {
+              "scheme": "Capacity Development (CD)",
+              "budget": 543.87
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Steel",
+      "total": 325.66,
+      "departments": [
+        {
+          "department": "Ministry of Steel",
+          "total": 325.66,
+          "schemes": [
+            {
+              "scheme": "Product Linked Incentive (PLI) Scheme for Specialty Steel in India",
+              "budget": 245.82
+            },
+            {
+              "scheme": "Scheme for Promotion of Research and Development in Iron and Steel sector",
+              "budget": 7.0
+            },
+            {
+              "scheme": "Flagging of Merchant Ships in India",
+              "budget": 6.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Textiles",
+      "total": 4417.03,
+      "departments": [
+        {
+          "department": "Ministry of Textiles",
+          "total": 4417.03,
+          "schemes": [
+            {
+              "scheme": "Amended Technology Upgradation Fund Scheme(ATUFS)",
+              "budget": 635.0
+            },
+            {
+              "scheme": "Procurement of Cotton by Cotton Corporation under Price Support Scheme",
+              "budget": 600.0
+            },
+            {
+              "scheme": "National Handloom Development Programme",
+              "budget": 200.0
+            },
+            {
+              "scheme": "National Handicrafts Development Programme (NHDP)",
+              "budget": 206.0
+            },
+            {
+              "scheme": "Handicraft Cluster Development Program - Handicraft Mega Cluster",
+              "budget": 30.0
+            },
+            {
+              "scheme": "Integrated Wool Development Programme",
+              "budget": 20.0
+            },
+            {
+              "scheme": "Central Silk Board",
+              "budget": 900.0
+            },
+            {
+              "scheme": "Scheme for Development of Jute Sector",
+              "budget": 50.0
+            },
+            {
+              "scheme": "Subsidy to Jute Corporation of India towards market operation",
+              "budget": 30.0
+            },
+            {
+              "scheme": "Integrated Processing Development Scheme",
+              "budget": 30.0
+            },
+            {
+              "scheme": "Production Linked Incentive (PLI) Scheme for Textiles",
+              "budget": 45.0
+            },
+            {
+              "scheme": "Integrated Scheme for Skill Development",
+              "budget": 166.0
+            },
+            {
+              "scheme": "National Technical Textiles Mission.",
+              "budget": 375.0
+            },
+            {
+              "scheme": "Textile Cluster Development Scheme",
+              "budget": 100.0
+            },
+            {
+              "scheme": "PM - MITRA",
+              "budget": 300.0
+            },
+            {
+              "scheme": "Scheme for Protection of the Handlooms and Implementation of the Handlooms (Reservation of Articles for Production) Act, 1985",
+              "budget": 7.0
+            },
+            {
+              "scheme": "Raw Material Supply Scheme",
+              "budget": 172.17
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Tourism",
+      "total": 2479.62,
+      "departments": [
+        {
+          "department": "Ministry of Tourism",
+          "total": 2479.62,
+          "schemes": [
+            {
+              "scheme": "Integrated Development of Tourist Circuits around specific themes (Swadesh Darshan)",
+              "budget": 1750.0
+            },
+            {
+              "scheme": "Pilgrimage Rejuvenation and Spiritual, Heritage Augmentation Drive (PRASHAD)",
+              "budget": 240.0
+            },
+            {
+              "scheme": "Assistance to Central Agencies for Tourism Infrastructure Development",
+              "budget": 90.0
+            },
+            {
+              "scheme": "Champion Services Sector Scheme",
+              "budget": 0.03
+            },
+            {
+              "scheme": "Overseas Promotion and Publicity including Market Development Assistance",
+              "budget": 33.02
+            },
+            {
+              "scheme": "Domestic Promotion and Publicity including Market Development Assistance",
+              "budget": 176.97
+            },
+            {
+              "scheme": "Assistance to IHMS/FCIs/IITTM/NIWS",
+              "budget": 50.0
+            },
+            {
+              "scheme": "Capacity Building for Service Providers",
+              "budget": 34.05
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Tribal Affairs",
+      "total": 13000.0,
+      "departments": [
+        {
+          "department": "Ministry of Tribal Affairs",
+          "total": 13000.0,
+          "schemes": [
+            {
+              "scheme": "Marketing and Logistics Development for Promoting Tribal Products from North Eastern Region.",
+              "budget": 107.52
+            },
+            {
+              "scheme": "Eklavya Model Residential Schools (EMRS)",
+              "budget": 6399.0
+            },
+            {
+              "scheme": "National Tribal Welfare Program",
+              "budget": 590.32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Women and Child Development",
+      "total": 26092.19,
+      "departments": [
+        {
+          "department": "Ministry of Women and Child Development",
+          "total": 26092.19,
+          "schemes": []
+        }
+      ]
+    },
+    {
+      "ministry": "Ministry of Youth Affairs and Sports",
+      "total": 3442.32,
+      "departments": [
+        {
+          "department": "Ministry of Youth Affairs and Sports",
+          "total": 3442.32,
+          "schemes": [
+            {
+              "scheme": "National Service Scheme",
+              "budget": 250.0
+            },
+            {
+              "scheme": "Rashtriya Yuva Sashaktikaran Karyakaram",
+              "budget": 136.75
+            },
+            {
+              "scheme": "Incentive to Sports Persons",
+              "budget": 39.0
+            },
+            {
+              "scheme": "National Sports Development Fund",
+              "budget": 18.0
+            },
+            {
+              "scheme": "Pandit Deendayal Upadhyay National Welfare for Sportspersons",
+              "budget": 2.0
+            },
+            {
+              "scheme": "Assistance to National Sports Federations",
+              "budget": 340.0
+            },
+            {
+              "scheme": "Scheme of Human Resource Development in Sports",
+              "budget": 3.1
+            },
+            {
+              "scheme": "National Centre of Sports Science & Research",
+              "budget": 8.0
+            },
+            {
+              "scheme": "Khelo India",
+              "budget": 900.0
+            },
+            {
+              "scheme": "Enhancement of Sports Facility at J& K",
+              "budget": 8.0
+            },
+            {
+              "scheme": "Commonwealth Games",
+              "budget": 0.01
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

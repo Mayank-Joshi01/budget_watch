@@ -1,0 +1,3296 @@
+{
+  "code_scheme": "MoSPI CPI base-year-2024 metadata. `code` values are the actual *_by24_code column values; internal IDs and descriptive dotted codes are omitted.",
+  "division": [
+    {
+      "name": "CPI (General)",
+      "code": 0,
+      "groups": []
+    },
+    {
+      "name": "Food and beverages",
+      "code": 1,
+      "groups": [
+        {
+          "name": "Food",
+          "code": 1,
+          "classes": [
+            {
+              "name": "Cereals and cereal products",
+              "code": 1,
+              "subClasses": [
+                {
+                  "name": "Cereals",
+                  "code": 1,
+                  "items": [
+                    {
+                      "name": "Rice",
+                      "code": 1
+                    },
+                    {
+                      "name": "Wheat",
+                      "code": 2
+                    },
+                    {
+                      "name": "Jowar and its products",
+                      "code": 3
+                    },
+                    {
+                      "name": "Ragi and its products",
+                      "code": 4
+                    },
+                    {
+                      "name": "Bajra and its products",
+                      "code": 5
+                    },
+                    {
+                      "name": "Maize and its products",
+                      "code": 6
+                    },
+                    {
+                      "name": "Small millets and its products",
+                      "code": 7
+                    },
+                    {
+                      "name": "Barley and its products",
+                      "code": 8
+                    },
+                    {
+                      "name": "Other cereals and products",
+                      "code": 9
+                    },
+                    {
+                      "name": "Other wheat products",
+                      "code": 10
+                    },
+                    {
+                      "name": "Rice PDS",
+                      "code": 11
+                    },
+                    {
+                      "name": "Wheat PDS",
+                      "code": 12
+                    }
+                  ]
+                },
+                {
+                  "name": "Flour of cereals",
+                  "code": 2,
+                  "items": [
+                    {
+                      "name": "Wheat atta",
+                      "code": 13
+                    },
+                    {
+                      "name": "Maida",
+                      "code": 14
+                    },
+                    {
+                      "name": "Wheat atta PDS",
+                      "code": 15
+                    }
+                  ]
+                },
+                {
+                  "name": "Bread and bakery products",
+                  "code": 3,
+                  "items": [
+                    {
+                      "name": "Biscuits",
+                      "code": 16
+                    },
+                    {
+                      "name": "Chips , nachos, puffs, wafers, etc.",
+                      "code": 17
+                    },
+                    {
+                      "name": "Cake, pastry",
+                      "code": 18
+                    },
+                    {
+                      "name": "Bread (bakery)",
+                      "code": 19
+                    }
+                  ]
+                },
+                {
+                  "name": "Breakfast cereals",
+                  "code": 4,
+                  "items": [
+                    {
+                      "name": "Breakfast cereals",
+                      "code": 20
+                    },
+                    {
+                      "name": "Muri",
+                      "code": 21
+                    },
+                    {
+                      "name": "Other rice products",
+                      "code": 22
+                    }
+                  ]
+                },
+                {
+                  "name": "Macaroni, noodles, couscous and similar pasta products",
+                  "code": 5,
+                  "items": [
+                    {
+                      "name": "Noodles",
+                      "code": 23
+                    },
+                    {
+                      "name": "Vermicelli (sewai)",
+                      "code": 24
+                    }
+                  ]
+                },
+                {
+                  "name": "Other milled cereal and grain products",
+                  "code": 6,
+                  "items": [
+                    {
+                      "name": "Suji, rawa",
+                      "code": 25
+                    },
+                    {
+                      "name": "Chidwa",
+                      "code": 26
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Meat, fresh, chilled or frozen",
+              "code": 2,
+              "subClasses": [
+                {
+                  "name": "Meat, fresh, chilled or frozen",
+                  "code": 7,
+                  "items": [
+                    {
+                      "name": "Chicken",
+                      "code": 27
+                    },
+                    {
+                      "name": "Goat meat/ mutton",
+                      "code": 28
+                    },
+                    {
+                      "name": "Beef/ buffalo meat",
+                      "code": 29
+                    },
+                    {
+                      "name": "Pork",
+                      "code": 30
+                    },
+                    {
+                      "name": "Others: birds, crab,oyster, etc.",
+                      "code": 31
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fish and other seafood",
+              "code": 3,
+              "subClasses": [
+                {
+                  "name": "Fish and prawn",
+                  "code": 8,
+                  "items": [
+                    {
+                      "name": "Fish and prawn",
+                      "code": 32
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Milk, other dairy products and eggs",
+              "code": 4,
+              "subClasses": [
+                {
+                  "name": "Milk: liquid",
+                  "code": 9,
+                  "items": [
+                    {
+                      "name": "Milk: liquid",
+                      "code": 33
+                    }
+                  ]
+                },
+                {
+                  "name": "Milk: condensed/ powder",
+                  "code": 10,
+                  "items": [
+                    {
+                      "name": "Milk: condensed/ powder",
+                      "code": 34
+                    }
+                  ]
+                },
+                {
+                  "name": "Cheese",
+                  "code": 11,
+                  "items": [
+                    {
+                      "name": "Paneer",
+                      "code": 35
+                    },
+                    {
+                      "name": "Cheese",
+                      "code": 36
+                    }
+                  ]
+                },
+                {
+                  "name": "Curd, Yoghurt and similar products",
+                  "code": 12,
+                  "items": [
+                    {
+                      "name": "Curd, yogurt",
+                      "code": 37
+                    },
+                    {
+                      "name": "Butter milk",
+                      "code": 38
+                    },
+                    {
+                      "name": "Lassi",
+                      "code": 39
+                    }
+                  ]
+                },
+                {
+                  "name": "Milk-based dessert and beverages",
+                  "code": 13,
+                  "items": [
+                    {
+                      "name": "Tea: cups",
+                      "code": 40
+                    },
+                    {
+                      "name": "Prepared sweets- milk based",
+                      "code": 41
+                    },
+                    {
+                      "name": "Coffee: cups",
+                      "code": 42
+                    }
+                  ]
+                },
+                {
+                  "name": "Eggs",
+                  "code": 14,
+                  "items": [
+                    {
+                      "name": "Eggs",
+                      "code": 43
+                    }
+                  ]
+                },
+                {
+                  "name": "Other dairy products",
+                  "code": 15,
+                  "items": [
+                    {
+                      "name": "Other milk products",
+                      "code": 44
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Oils and fats",
+              "code": 5,
+              "subClasses": [
+                {
+                  "name": "Vegetable oils",
+                  "code": 16,
+                  "items": [
+                    {
+                      "name": "Refined oil",
+                      "code": 45
+                    },
+                    {
+                      "name": "Mustard oil",
+                      "code": 46
+                    },
+                    {
+                      "name": "Groundnut oil",
+                      "code": 47
+                    },
+                    {
+                      "name": "Coconut oil",
+                      "code": 48
+                    },
+                    {
+                      "name": "Edible oil",
+                      "code": 49
+                    },
+                    {
+                      "name": "Edible oil PDS",
+                      "code": 50
+                    }
+                  ]
+                },
+                {
+                  "name": "Butter and other oils and fats derived from milk",
+                  "code": 17,
+                  "items": [
+                    {
+                      "name": "Ghee",
+                      "code": 51
+                    },
+                    {
+                      "name": "Butter",
+                      "code": 52
+                    }
+                  ]
+                },
+                {
+                  "name": "Margarine and similar preparations",
+                  "code": 18,
+                  "items": [
+                    {
+                      "name": "Vanaspati and margarine",
+                      "code": 53
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fruits and nuts",
+              "code": 6,
+              "subClasses": [
+                {
+                  "name": "Dates, figs and tropical fruits, fresh",
+                  "code": 19,
+                  "items": [
+                    {
+                      "name": "Banana",
+                      "code": 54
+                    },
+                    {
+                      "name": "Mango",
+                      "code": 55
+                    },
+                    {
+                      "name": "Green coconut",
+                      "code": 56
+                    },
+                    {
+                      "name": "Coconut",
+                      "code": 57
+                    },
+                    {
+                      "name": "Papaya",
+                      "code": 58
+                    },
+                    {
+                      "name": "Guava",
+                      "code": 59
+                    },
+                    {
+                      "name": "Pineapple",
+                      "code": 60
+                    },
+                    {
+                      "name": "Fig: anjeer",
+                      "code": 61
+                    }
+                  ]
+                },
+                {
+                  "name": "Citrus fruits, fresh",
+                  "code": 20,
+                  "items": [
+                    {
+                      "name": "Orange and sweet lime (mausami)",
+                      "code": 62
+                    },
+                    {
+                      "name": "Lemon",
+                      "code": 63
+                    }
+                  ]
+                },
+                {
+                  "name": "Stone fruits and pome fruits, fresh",
+                  "code": 21,
+                  "items": [
+                    {
+                      "name": "Apple",
+                      "code": 64
+                    },
+                    {
+                      "name": "Litchi",
+                      "code": 65
+                    },
+                    {
+                      "name": "Pears/ nashpati",
+                      "code": 66
+                    },
+                    {
+                      "name": "Apricot",
+                      "code": 67
+                    }
+                  ]
+                },
+                {
+                  "name": "Berries, fresh",
+                  "code": 22,
+                  "items": [
+                    {
+                      "name": "Berries",
+                      "code": 68
+                    }
+                  ]
+                },
+                {
+                  "name": "Other fruits, fresh",
+                  "code": 23,
+                  "items": [
+                    {
+                      "name": "Grapes",
+                      "code": 69
+                    },
+                    {
+                      "name": "Watermelon",
+                      "code": 70
+                    },
+                    {
+                      "name": "Kharbooza",
+                      "code": 71
+                    },
+                    {
+                      "name": "Singara",
+                      "code": 72
+                    },
+                    {
+                      "name": "Other fresh fruits",
+                      "code": 73
+                    }
+                  ]
+                },
+                {
+                  "name": "Fruits, dried and dehydrated",
+                  "code": 24,
+                  "items": [
+                    {
+                      "name": "Dates",
+                      "code": 74
+                    },
+                    {
+                      "name": "Raisin (kishmish) and monacca",
+                      "code": 75
+                    },
+                    {
+                      "name": "Coconut: copra",
+                      "code": 76
+                    },
+                    {
+                      "name": "Other dry fruits",
+                      "code": 77
+                    }
+                  ]
+                },
+                {
+                  "name": "Nuts, in shell or shelled",
+                  "code": 25,
+                  "items": [
+                    {
+                      "name": "Groundnut",
+                      "code": 78
+                    },
+                    {
+                      "name": "Cashew nut",
+                      "code": 79
+                    },
+                    {
+                      "name": "Other nuts",
+                      "code": 80
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Vegetables, tubers, plantains, cooking bananas and pulses",
+              "code": 7,
+              "subClasses": [
+                {
+                  "name": "Leafy or stem vegetables, fresh or chilled",
+                  "code": 26,
+                  "items": [
+                    {
+                      "name": "Cauliflower",
+                      "code": 81
+                    },
+                    {
+                      "name": "Cabbage",
+                      "code": 82
+                    },
+                    {
+                      "name": "Palak and other leafy vegetables",
+                      "code": 83
+                    }
+                  ]
+                },
+                {
+                  "name": "Fruit-bearing vegetables, fresh or chilled",
+                  "code": 27,
+                  "items": [
+                    {
+                      "name": "Tomato",
+                      "code": 84
+                    },
+                    {
+                      "name": "Lady's finger",
+                      "code": 85
+                    },
+                    {
+                      "name": "Brinjal",
+                      "code": 86
+                    },
+                    {
+                      "name": "Green chillies",
+                      "code": 87
+                    },
+                    {
+                      "name": "Gourd, pumpkin",
+                      "code": 88
+                    },
+                    {
+                      "name": "Parwal/patal and Kundru",
+                      "code": 89
+                    }
+                  ]
+                },
+                {
+                  "name": "Green leguminous vegetables, fresh or chilled",
+                  "code": 28,
+                  "items": [
+                    {
+                      "name": "Beans and Barbati",
+                      "code": 90
+                    },
+                    {
+                      "name": "Peas",
+                      "code": 91
+                    }
+                  ]
+                },
+                {
+                  "name": "Other vegetables, fresh or chilled",
+                  "code": 29,
+                  "items": [
+                    {
+                      "name": "Onion",
+                      "code": 92
+                    },
+                    {
+                      "name": "Garlic",
+                      "code": 93
+                    },
+                    {
+                      "name": "Carrot",
+                      "code": 94
+                    },
+                    {
+                      "name": "Radish",
+                      "code": 95
+                    },
+                    {
+                      "name": "Jackfruit",
+                      "code": 96
+                    },
+                    {
+                      "name": "Other vegetables",
+                      "code": 97
+                    }
+                  ]
+                },
+                {
+                  "name": "Tubers, plantains and cooking bananas, fresh or chilled",
+                  "code": 30,
+                  "items": [
+                    {
+                      "name": "Potato",
+                      "code": 98
+                    }
+                  ]
+                },
+                {
+                  "name": "Pulses",
+                  "code": 31,
+                  "items": [
+                    {
+                      "name": "Arhar, tur",
+                      "code": 99
+                    },
+                    {
+                      "name": "Moong",
+                      "code": 100
+                    },
+                    {
+                      "name": "Urd",
+                      "code": 101
+                    },
+                    {
+                      "name": "Masur",
+                      "code": 102
+                    },
+                    {
+                      "name": "Gram: split",
+                      "code": 103
+                    },
+                    {
+                      "name": "Gram: whole",
+                      "code": 104
+                    },
+                    {
+                      "name": "Peas, chickpeas",
+                      "code": 105
+                    },
+                    {
+                      "name": "Other pulses",
+                      "code": 106
+                    },
+                    {
+                      "name": "Pulses PDS",
+                      "code": 107
+                    }
+                  ]
+                },
+                {
+                  "name": "Vegetables, tubers, plantains, cooking bananas and pulses ground, and in other preparations",
+                  "code": 32,
+                  "items": [
+                    {
+                      "name": "Besan and Gram products",
+                      "code": 108
+                    },
+                    {
+                      "name": "Pickles",
+                      "code": 109
+                    },
+                    {
+                      "name": "Other pulse products",
+                      "code": 110
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sugar, confectionery and desserts",
+              "code": 8,
+              "subClasses": [
+                {
+                  "name": "Cane sugar and beet sugar",
+                  "code": 33,
+                  "items": [
+                    {
+                      "name": "Sugar",
+                      "code": 111
+                    },
+                    {
+                      "name": "Jaggery (gur)",
+                      "code": 112
+                    },
+                    {
+                      "name": "Sugar PDS",
+                      "code": 113
+                    }
+                  ]
+                },
+                {
+                  "name": "Jams, marmalades, fruit jellies, purées and pastes, and honey",
+                  "code": 34,
+                  "items": [
+                    {
+                      "name": "Jam/ jelly",
+                      "code": 114
+                    },
+                    {
+                      "name": "Honey",
+                      "code": 115
+                    }
+                  ]
+                },
+                {
+                  "name": "Chocolate, cocoa and cocoa-based food products",
+                  "code": 35,
+                  "items": [
+                    {
+                      "name": "Chocolates, etc.",
+                      "code": 116
+                    }
+                  ]
+                },
+                {
+                  "name": "Ice, ice cream and sorbets",
+                  "code": 36,
+                  "items": [
+                    {
+                      "name": "Ice-cream",
+                      "code": 117
+                    }
+                  ]
+                },
+                {
+                  "name": "Other sugar confectionery and desserts",
+                  "code": 37,
+                  "items": [
+                    {
+                      "name": "Prepared sweets - non milk based",
+                      "code": 118
+                    },
+                    {
+                      "name": "Candy, misri",
+                      "code": 119
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ready-made food and other food products",
+              "code": 9,
+              "subClasses": [
+                {
+                  "name": "Ready-made food",
+                  "code": 38,
+                  "items": [
+                    {
+                      "name": "Other served processed food",
+                      "code": 120
+                    },
+                    {
+                      "name": "Other packaged processed food",
+                      "code": 121
+                    }
+                  ]
+                },
+                {
+                  "name": "Baby food",
+                  "code": 39,
+                  "items": [
+                    {
+                      "name": "Baby food",
+                      "code": 122
+                    }
+                  ]
+                },
+                {
+                  "name": "Salt, condiments and sauces",
+                  "code": 40,
+                  "items": [
+                    {
+                      "name": "Salt",
+                      "code": 123
+                    },
+                    {
+                      "name": "Sauce and Mayonnaise",
+                      "code": 124
+                    },
+                    {
+                      "name": "Salt PDS",
+                      "code": 125
+                    }
+                  ]
+                },
+                {
+                  "name": "Spices, culinary herbs and seeds",
+                  "code": 41,
+                  "items": [
+                    {
+                      "name": "Dry chillies",
+                      "code": 126
+                    },
+                    {
+                      "name": "Cumin (jeera)",
+                      "code": 127
+                    },
+                    {
+                      "name": "Coriander (dhania)",
+                      "code": 128
+                    },
+                    {
+                      "name": "Ginger",
+                      "code": 129
+                    },
+                    {
+                      "name": "Turmeric",
+                      "code": 130
+                    },
+                    {
+                      "name": "Curry powder",
+                      "code": 131
+                    },
+                    {
+                      "name": "Black pepper",
+                      "code": 132
+                    },
+                    {
+                      "name": "Tamarind",
+                      "code": 133
+                    },
+                    {
+                      "name": "Oilseeds",
+                      "code": 134
+                    },
+                    {
+                      "name": "Poppy seeds",
+                      "code": 135
+                    },
+                    {
+                      "name": "Other spices",
+                      "code": 136
+                    }
+                  ]
+                },
+                {
+                  "name": "Other food products n.e.c.",
+                  "code": 42,
+                  "items": [
+                    {
+                      "name": "Papad, bhujia, namkeen, mixture and chanachur",
+                      "code": 137
+                    },
+                    {
+                      "name": "Health supplements (probiotic tablet and drinks)",
+                      "code": 138
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Beverages",
+          "code": 2,
+          "classes": [
+            {
+              "name": "Fruit and vegetable juices",
+              "code": 10,
+              "subClasses": [
+                {
+                  "name": "Fruit and vegetable juices",
+                  "code": 43,
+                  "items": [
+                    {
+                      "name": "Fruit juice",
+                      "code": 139
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Coffee and coffee substitutes",
+              "code": 11,
+              "subClasses": [
+                {
+                  "name": "Coffee: powder",
+                  "code": 44,
+                  "items": [
+                    {
+                      "name": "Coffee: powder",
+                      "code": 140
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Tea, maté and other plant-derived products for infusion",
+              "code": 12,
+              "subClasses": [
+                {
+                  "name": "Tea: leaf",
+                  "code": 45,
+                  "items": [
+                    {
+                      "name": "Tea: leaf",
+                      "code": 141
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Other beverages",
+              "code": 13,
+              "subClasses": [
+                {
+                  "name": "Other beverages",
+                  "code": 46,
+                  "items": [
+                    {
+                      "name": "Health drinks",
+                      "code": 142
+                    },
+                    {
+                      "name": "Health supplements (protein powder)",
+                      "code": 146
+                    },
+                    {
+                      "name": "Other cold beverages",
+                      "code": 147
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cocoa drinks",
+              "code": 14,
+              "subClasses": [
+                {
+                  "name": "Cocoa drinks",
+                  "code": 47,
+                  "items": [
+                    {
+                      "name": "Beverages: cocoa and chocolate drink",
+                      "code": 143
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Water",
+              "code": 15,
+              "subClasses": [
+                {
+                  "name": "Packaged water",
+                  "code": 48,
+                  "items": [
+                    {
+                      "name": "Packaged water",
+                      "code": 144
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Soft drinks",
+              "code": 16,
+              "subClasses": [
+                {
+                  "name": "Soda drinks",
+                  "code": 49,
+                  "items": [
+                    {
+                      "name": "Soda drinks",
+                      "code": 145
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Services for processing primary goods for food",
+          "code": 3,
+          "classes": [
+            {
+              "name": "Services for processing primary goods for food",
+              "code": 17,
+              "subClasses": [
+                {
+                  "name": "Services for processing primary goods for food",
+                  "code": 50,
+                  "items": [
+                    {
+                      "name": "Grinding/ husking charges",
+                      "code": 148
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Paan, tobacco and intoxicants",
+      "code": 2,
+      "groups": [
+        {
+          "name": "Alcoholic beverages",
+          "code": 4,
+          "classes": [
+            {
+              "name": "Spirits and liquors",
+              "code": 18,
+              "subClasses": [
+                {
+                  "name": "Spirits and liquors",
+                  "code": 51,
+                  "items": [
+                    {
+                      "name": "Foreign/refined liquor or wine",
+                      "code": 149
+                    },
+                    {
+                      "name": "Country liquor",
+                      "code": 150
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Wine",
+              "code": 19,
+              "subClasses": [
+                {
+                  "name": "Wine from other sources",
+                  "code": 52,
+                  "items": [
+                    {
+                      "name": "Toddy",
+                      "code": 151
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Beer",
+              "code": 20,
+              "subClasses": [
+                {
+                  "name": "Beer",
+                  "code": 53,
+                  "items": [
+                    {
+                      "name": "Beer",
+                      "code": 152
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Other alcoholic beverages",
+              "code": 21,
+              "subClasses": [
+                {
+                  "name": "Other alcoholic beverages",
+                  "code": 54,
+                  "items": [
+                    {
+                      "name": "Other intoxicants",
+                      "code": 153
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paan and tobacco",
+          "code": 5,
+          "classes": [
+            {
+              "name": "Paan and other tobacco products",
+              "code": 22,
+              "subClasses": [
+                {
+                  "name": "Cigarettes",
+                  "code": 55,
+                  "items": [
+                    {
+                      "name": "Cigarettes",
+                      "code": 154
+                    }
+                  ]
+                },
+                {
+                  "name": "Cigars",
+                  "code": 56,
+                  "items": [
+                    {
+                      "name": "Cheroot",
+                      "code": 155
+                    }
+                  ]
+                },
+                {
+                  "name": "Paan and other tobacco products",
+                  "code": 57,
+                  "items": [
+                    {
+                      "name": "Gutka, zarda, kimam, surti",
+                      "code": 156
+                    },
+                    {
+                      "name": "Paan: finished",
+                      "code": 157
+                    },
+                    {
+                      "name": "Bidi",
+                      "code": 158
+                    },
+                    {
+                      "name": "Ingredients for paan",
+                      "code": 159
+                    },
+                    {
+                      "name": "Leaf tobacco",
+                      "code": 160
+                    },
+                    {
+                      "name": "Paan: leaf",
+                      "code": 161
+                    },
+                    {
+                      "name": "Hookah tobacco",
+                      "code": 162
+                    },
+                    {
+                      "name": "Snuff",
+                      "code": 163
+                    },
+                    {
+                      "name": "Other tobacco products",
+                      "code": 164
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clothing and footwear",
+      "code": 3,
+      "groups": [
+        {
+          "name": "Clothing",
+          "code": 6,
+          "classes": [
+            {
+              "name": "Clothing materials",
+              "code": 23,
+              "subClasses": [
+                {
+                  "name": "Clothing materials",
+                  "code": 58,
+                  "items": [
+                    {
+                      "name": "Clothing materials",
+                      "code": 165
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Garments",
+              "code": 24,
+              "subClasses": [
+                {
+                  "name": "Garments for men or boys",
+                  "code": 59,
+                  "items": [
+                    {
+                      "name": "Shirts, T-shirts, Kurta (gents)",
+                      "code": 166
+                    },
+                    {
+                      "name": "Trousers, jeans, track pant, shorts (gents)",
+                      "code": 167
+                    },
+                    {
+                      "name": "Coat, jacket, blazer, sweater, sweatshirts and windcheater (gents)",
+                      "code": 168
+                    },
+                    {
+                      "name": "Dhoti/ Lungi",
+                      "code": 169
+                    },
+                    {
+                      "name": "Other garments for men or boys",
+                      "code": 170
+                    }
+                  ]
+                },
+                {
+                  "name": "Garments for women or girls",
+                  "code": 60,
+                  "items": [
+                    {
+                      "name": "Saree",
+                      "code": 171
+                    },
+                    {
+                      "name": "Tops, shrugs, kurti (ladies)",
+                      "code": 172
+                    },
+                    {
+                      "name": "Trousers, jeans, slawars, Skirts (ladies)",
+                      "code": 173
+                    },
+                    {
+                      "name": "Coat, jacket, blazer, sweater, sweatshirts and windcheater  (ladies)",
+                      "code": 174
+                    },
+                    {
+                      "name": "Other garments for women or girls",
+                      "code": 175
+                    }
+                  ]
+                },
+                {
+                  "name": "Garments for infants (under 2 years of age)",
+                  "code": 61,
+                  "items": [
+                    {
+                      "name": "Garments for infants",
+                      "code": 176
+                    }
+                  ]
+                },
+                {
+                  "name": "School uniforms",
+                  "code": 62,
+                  "items": [
+                    {
+                      "name": "School uniforms",
+                      "code": 177
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Other articles of clothing and clothing accessories",
+              "code": 25,
+              "subClasses": [
+                {
+                  "name": "Other articles of clothing",
+                  "code": 63,
+                  "items": [
+                    {
+                      "name": "Gamchha, towel and handkerchief",
+                      "code": 178
+                    },
+                    {
+                      "name": "Shawl and chaddar",
+                      "code": 179
+                    },
+                    {
+                      "name": "Other articles of clothing (including knitting wool)",
+                      "code": 180
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cleaning, ironing, dry cleaning, dyeing, repair, tailoring and hire of clothing",
+              "code": 26,
+              "subClasses": [
+                {
+                  "name": "Cleaning, ironing, dry cleaning and dyeing of clothing",
+                  "code": 64,
+                  "items": [
+                    {
+                      "name": "Washerman, laundry, ironing, dry cleaning and dyeing",
+                      "code": 181
+                    }
+                  ]
+                },
+                {
+                  "name": "Repair, tailoring and hire of clothing",
+                  "code": 65,
+                  "items": [
+                    {
+                      "name": "Tailor",
+                      "code": 182
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Footwear",
+          "code": 7,
+          "classes": [
+            {
+              "name": "Shoes and other footwear",
+              "code": 27,
+              "subClasses": [
+                {
+                  "name": "Footwear for men",
+                  "code": 66,
+                  "items": [
+                    {
+                      "name": "Footwear for men",
+                      "code": 183
+                    }
+                  ]
+                },
+                {
+                  "name": "Footwear for women",
+                  "code": 67,
+                  "items": [
+                    {
+                      "name": "Footwear for women",
+                      "code": 184
+                    }
+                  ]
+                },
+                {
+                  "name": "Footwear for infants and children",
+                  "code": 68,
+                  "items": [
+                    {
+                      "name": "Footwear for infants and children",
+                      "code": 185
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Housing, water, electricity, gas and other fuels",
+      "code": 4,
+      "groups": [
+        {
+          "name": "Actual rental payments made for housing",
+          "code": 8,
+          "classes": [
+            {
+              "name": "Actual rental payments made by tenants for main residence",
+              "code": 28,
+              "subClasses": [
+                {
+                  "name": "Actual rental payments made by tenants for main residence",
+                  "code": 69,
+                  "items": [
+                    {
+                      "name": "House Rent",
+                      "code": 186
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintenance, repair and security of the dwelling",
+          "code": 9,
+          "classes": [
+            {
+              "name": "Security equipment and materials for dwelling maintenance and repair",
+              "code": 29,
+              "subClasses": [
+                {
+                  "name": "Materials for the maintenance and repair of the dwelling",
+                  "code": 70,
+                  "items": [
+                    {
+                      "name": "Plugs, switches and other electrical fittings",
+                      "code": 187
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Services for the maintenance, repair and security of the dwelling",
+              "code": 30,
+              "subClasses": [
+                {
+                  "name": "Services for the maintenance, repair and security of the dwelling",
+                  "code": 71,
+                  "items": [
+                    {
+                      "name": "Residential building and land (minor repairs)",
+                      "code": 188
+                    },
+                    {
+                      "name": "Repair charges for non-durables (electricity charges, plumbing charges etc.)",
+                      "code": 189
+                    },
+                    {
+                      "name": "Watchmen/security guard",
+                      "code": 190
+                    },
+                    {
+                      "name": "Other consumer rent",
+                      "code": 191
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Water supply and miscellaneous services relating to the dwelling",
+          "code": 10,
+          "classes": [
+            {
+              "name": "Water supply",
+              "code": 31,
+              "subClasses": [
+                {
+                  "name": "Water charges",
+                  "code": 72,
+                  "items": [
+                    {
+                      "name": "Water charges",
+                      "code": 192
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Other services related to the dwelling",
+              "code": 32,
+              "subClasses": [
+                {
+                  "name": "Other services related to the dwelling n.e.c.",
+                  "code": 73,
+                  "items": [
+                    {
+                      "name": "Sweeper",
+                      "code": 193
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Electricity, gas and other fuels",
+          "code": 11,
+          "classes": [
+            {
+              "name": "Electricity",
+              "code": 33,
+              "subClasses": [
+                {
+                  "name": "Electricity",
+                  "code": 74,
+                  "items": [
+                    {
+                      "name": "Electricity charges",
+                      "code": 194
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Gas",
+              "code": 34,
+              "subClasses": [
+                {
+                  "name": "LPG Cylinders and Piped natural gas",
+                  "code": 75,
+                  "items": [
+                    {
+                      "name": "LPG cylinder and piped natural gas",
+                      "code": 195
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Liquid fuels",
+              "code": 35,
+              "subClasses": [
+                {
+                  "name": "Liquid fuels",
+                  "code": 76,
+                  "items": [
+                    {
+                      "name": "Kerosene",
+                      "code": 196
+                    },
+                    {
+                      "name": "Kerosene PDS",
+                      "code": 197
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Solid fuels",
+              "code": 36,
+              "subClasses": [
+                {
+                  "name": "Coal",
+                  "code": 77,
+                  "items": [
+                    {
+                      "name": "Coal",
+                      "code": 198
+                    }
+                  ]
+                },
+                {
+                  "name": "Firewood and chips",
+                  "code": 78,
+                  "items": [
+                    {
+                      "name": "Firewood and chips",
+                      "code": 199
+                    }
+                  ]
+                },
+                {
+                  "name": "Charcoal",
+                  "code": 79,
+                  "items": [
+                    {
+                      "name": "Charcoal",
+                      "code": 200
+                    }
+                  ]
+                },
+                {
+                  "name": "Other solid fuels",
+                  "code": 80,
+                  "items": [
+                    {
+                      "name": "Dung cake",
+                      "code": 201
+                    },
+                    {
+                      "name": "Fuel (biogas and gobar gas)",
+                      "code": 202
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Furnishings, household equipment and routine household maintenance",
+      "code": 5,
+      "groups": [
+        {
+          "name": "Furniture, furnishings, and loose carpets",
+          "code": 12,
+          "classes": [
+            {
+              "name": "Furniture, furnishings and loose carpets",
+              "code": 37,
+              "subClasses": [
+                {
+                  "name": "Household furniture",
+                  "code": 81,
+                  "items": [
+                    {
+                      "name": "Chair, stool, bench and table",
+                      "code": 203
+                    },
+                    {
+                      "name": "Almirah and dressing table",
+                      "code": 204
+                    },
+                    {
+                      "name": "Bedstead",
+                      "code": 205
+                    },
+                    {
+                      "name": "Other furniture and fixtures",
+                      "code": 206
+                    }
+                  ]
+                },
+                {
+                  "name": "Lighting equipment",
+                  "code": 82,
+                  "items": [
+                    {
+                      "name": "Lantern, lamp, electric lampshade and emergency light",
+                      "code": 207
+                    },
+                    {
+                      "name": "Other electric bulb, tubelight and decorative lights",
+                      "code": 208
+                    }
+                  ]
+                },
+                {
+                  "name": "Furnishings, loose carpets and rugs",
+                  "code": 83,
+                  "items": [
+                    {
+                      "name": "Carpet, daree and other floor mattings",
+                      "code": 209
+                    },
+                    {
+                      "name": "Paintings, drawings and engravings",
+                      "code": 210
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Household textiles",
+          "code": 13,
+          "classes": [
+            {
+              "name": "Household textiles",
+              "code": 38,
+              "subClasses": [
+                {
+                  "name": "Furnishing fabrics and curtains",
+                  "code": 84,
+                  "items": [
+                    {
+                      "name": "Cloth for upholstery, curtains, tablecloth etc.",
+                      "code": 211
+                    }
+                  ]
+                },
+                {
+                  "name": "Bed linen and bedding",
+                  "code": 85,
+                  "items": [
+                    {
+                      "name": "Bed sheet and bed cover",
+                      "code": 212
+                    },
+                    {
+                      "name": "Rug and blanket",
+                      "code": 213
+                    },
+                    {
+                      "name": "Pillow and cushion",
+                      "code": 214
+                    },
+                    {
+                      "name": "Quilt and mattress",
+                      "code": 215
+                    },
+                    {
+                      "name": "Mosquito net",
+                      "code": 216
+                    },
+                    {
+                      "name": "Bedding",
+                      "code": 217
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Household appliances",
+          "code": 14,
+          "classes": [
+            {
+              "name": "Major electric and other household appliances",
+              "code": 39,
+              "subClasses": [
+                {
+                  "name": "Major kitchen appliances",
+                  "code": 86,
+                  "items": [
+                    {
+                      "name": "Refrigerator/freezers",
+                      "code": 218
+                    },
+                    {
+                      "name": "stove, gas burner and induction",
+                      "code": 219
+                    }
+                  ]
+                },
+                {
+                  "name": "Major laundry appliances",
+                  "code": 87,
+                  "items": [
+                    {
+                      "name": "Washing machine",
+                      "code": 220
+                    }
+                  ]
+                },
+                {
+                  "name": "Heaters and air conditioners",
+                  "code": 88,
+                  "items": [
+                    {
+                      "name": "Air conditioner",
+                      "code": 221
+                    },
+                    {
+                      "name": "Air cooler",
+                      "code": 222
+                    },
+                    {
+                      "name": "Geysers and sterilizers",
+                      "code": 223
+                    },
+                    {
+                      "name": "Electric air heaters and blowers",
+                      "code": 224
+                    },
+                    {
+                      "name": "Ventilation system such as exhaust, chimney, etc.",
+                      "code": 225
+                    }
+                  ]
+                },
+                {
+                  "name": "Other major household appliances",
+                  "code": 89,
+                  "items": [
+                    {
+                      "name": "Water purifier",
+                      "code": 226
+                    },
+                    {
+                      "name": "Inverter, generators and stabilizers",
+                      "code": 227
+                    },
+                    {
+                      "name": "Sewing machine",
+                      "code": 228
+                    },
+                    {
+                      "name": "Air purifier",
+                      "code": 229
+                    },
+                    {
+                      "name": "Other machines for household work",
+                      "code": 230
+                    },
+                    {
+                      "name": "Other durables",
+                      "code": 231
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Small household appliances",
+              "code": 40,
+              "subClasses": [
+                {
+                  "name": "Small appliances for the cooking and processing of food",
+                  "code": 90,
+                  "items": [
+                    {
+                      "name": "Mixer/grinder, juicer and food processor",
+                      "code": 232
+                    },
+                    {
+                      "name": "Other cooking/ household appliances",
+                      "code": 233
+                    }
+                  ]
+                },
+                {
+                  "name": "Other small household appliances",
+                  "code": 91,
+                  "items": [
+                    {
+                      "name": "Electric fan",
+                      "code": 234
+                    },
+                    {
+                      "name": "Bathroom and sanitary equipment",
+                      "code": 235
+                    },
+                    {
+                      "name": "Electric iron, heater, toaster, micro-oven, electric kettle, vacuum cleaner and other electric heating appliances",
+                      "code": 236
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Glassware, tableware and household utensils",
+          "code": 15,
+          "classes": [
+            {
+              "name": "Glassware, tableware and household utensils",
+              "code": 41,
+              "subClasses": [
+                {
+                  "name": "Glassware, crystal ware, ceramic ware and china ware",
+                  "code": 92,
+                  "items": [
+                    {
+                      "name": "Glassware",
+                      "code": 237
+                    }
+                  ]
+                },
+                {
+                  "name": "Kitchen utensils and articles",
+                  "code": 93,
+                  "items": [
+                    {
+                      "name": "Bucket and other plastic goods",
+                      "code": 238
+                    },
+                    {
+                      "name": "Stainless steel utensils",
+                      "code": 239
+                    },
+                    {
+                      "name": "Water bottle/feeding bottle",
+                      "code": 240
+                    },
+                    {
+                      "name": "Casseroles, thermos, flask and thermoware",
+                      "code": 241
+                    },
+                    {
+                      "name": "Other metal utensils (non-stick cookware, etc.)",
+                      "code": 242
+                    },
+                    {
+                      "name": "Other crockery and utensils",
+                      "code": 243
+                    },
+                    {
+                      "name": "Pressure cooker/ pressure pan",
+                      "code": 244
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tools and equipment for house and garden",
+          "code": 16,
+          "classes": [
+            {
+              "name": "Non-motorized tools and miscellaneous accessories",
+              "code": 42,
+              "subClasses": [
+                {
+                  "name": "Miscellaneous accessories",
+                  "code": 94,
+                  "items": [
+                    {
+                      "name": "LED bulb, CFL bulbs",
+                      "code": 245
+                    },
+                    {
+                      "name": "Electric batteries",
+                      "code": 246
+                    },
+                    {
+                      "name": "Other minor durable-type goods",
+                      "code": 247
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Goods and services for routine household maintenance",
+          "code": 17,
+          "classes": [
+            {
+              "name": "Non-durable household goods",
+              "code": 43,
+              "subClasses": [
+                {
+                  "name": "Household cleaning and maintenance products",
+                  "code": 95,
+                  "items": [
+                    {
+                      "name": "Washing soap/soda/powder/liquid detergent",
+                      "code": 248
+                    },
+                    {
+                      "name": "Floor cleaner, toilet cleaner",
+                      "code": 249
+                    },
+                    {
+                      "name": "Other washing requisites",
+                      "code": 250
+                    }
+                  ]
+                },
+                {
+                  "name": "Other non-durable household goods",
+                  "code": 96,
+                  "items": [
+                    {
+                      "name": "Incense (agarbatti) and room freshener",
+                      "code": 251
+                    },
+                    {
+                      "name": "Mosquito repellent, insecticide, anti-rodent, etc.",
+                      "code": 252
+                    },
+                    {
+                      "name": "Earthenware, paperware, thermocol plates, etc.",
+                      "code": 253
+                    },
+                    {
+                      "name": "Matchbox",
+                      "code": 254
+                    },
+                    {
+                      "name": "Candle",
+                      "code": 255
+                    },
+                    {
+                      "name": "Other petty articles",
+                      "code": 256
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Domestic services and household services",
+              "code": 44,
+              "subClasses": [
+                {
+                  "name": "Domestic services provided by paid staff",
+                  "code": 97,
+                  "items": [
+                    {
+                      "name": "Domestic helper/cook",
+                      "code": 257
+                    },
+                    {
+                      "name": "Driver",
+                      "code": 258
+                    },
+                    {
+                      "name": "Attendant, babysitter",
+                      "code": 259
+                    }
+                  ]
+                },
+                {
+                  "name": "Other consumer services excluding conveyance",
+                  "code": 98,
+                  "items": [
+                    {
+                      "name": "Other consumer services excluding conveyance",
+                      "code": 260
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Health",
+      "code": 6,
+      "groups": [
+        {
+          "name": "Medicines and health products",
+          "code": 18,
+          "classes": [
+            {
+              "name": "Medicines",
+              "code": 45,
+              "subClasses": [
+                {
+                  "name": "Medicines and vaccines",
+                  "code": 99,
+                  "items": [
+                    {
+                      "name": "Medicine",
+                      "code": 261
+                    }
+                  ]
+                },
+                {
+                  "name": "Health supplements",
+                  "code": 100,
+                  "items": [
+                    {
+                      "name": "Health supplements (chawanprash)",
+                      "code": 262
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Medical products",
+              "code": 46,
+              "subClasses": [
+                {
+                  "name": "Medical diagnostic products",
+                  "code": 101,
+                  "items": [
+                    {
+                      "name": "Other medical equipment",
+                      "code": 263
+                    }
+                  ]
+                },
+                {
+                  "name": "Family planning devices",
+                  "code": 102,
+                  "items": [
+                    {
+                      "name": "Family planning devices",
+                      "code": 264
+                    }
+                  ]
+                },
+                {
+                  "name": "Treatment devices for personal use",
+                  "code": 103,
+                  "items": [
+                    {
+                      "name": "Nebulizer",
+                      "code": 265
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Assistive products",
+              "code": 47,
+              "subClasses": [
+                {
+                  "name": "Assistive products for vision",
+                  "code": 104,
+                  "items": [
+                    {
+                      "name": "Spectacles/goggles, contact lenses",
+                      "code": 266
+                    }
+                  ]
+                },
+                {
+                  "name": "Assistive products for hearing and communication",
+                  "code": 105,
+                  "items": [
+                    {
+                      "name": "Hearing aids and orthopaedic equipment",
+                      "code": 267
+                    }
+                  ]
+                },
+                {
+                  "name": "Assistive products for mobility and daily living",
+                  "code": 106,
+                  "items": [
+                    {
+                      "name": "Massager",
+                      "code": 268
+                    },
+                    {
+                      "name": "Wheelchair",
+                      "code": 269
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Outpatient care services",
+          "code": 19,
+          "classes": [
+            {
+              "name": "Other outpatient care services",
+              "code": 48,
+              "subClasses": [
+                {
+                  "name": "Outpatient curative and rehabilitative services",
+                  "code": 107,
+                  "items": [
+                    {
+                      "name": "Doctor's/surgeon's fee",
+                      "code": 270
+                    },
+                    {
+                      "name": "Other medical expenses",
+                      "code": 271
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Inpatient care services",
+          "code": 20,
+          "classes": [
+            {
+              "name": "Inpatient curative and rehabilitative services",
+              "code": 49,
+              "subClasses": [
+                {
+                  "name": "Inpatient curative and rehabilitative services",
+                  "code": 108,
+                  "items": [
+                    {
+                      "name": "Hospital and nursing home charges",
+                      "code": 272
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Other health services",
+          "code": 21,
+          "classes": [
+            {
+              "name": "Diagnostic imaging services and medical laboratory services",
+              "code": 50,
+              "subClasses": [
+                {
+                  "name": "Diagnostic imaging services and medical laboratory services",
+                  "code": 109,
+                  "items": [
+                    {
+                      "name": "X-ray, ECG and pathological test",
+                      "code": 273
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transport",
+      "code": 7,
+      "groups": [
+        {
+          "name": "Purchase of vehicles",
+          "code": 22,
+          "classes": [
+            {
+              "name": "Motor cars",
+              "code": 51,
+              "subClasses": [
+                {
+                  "name": "Motor car and jeep",
+                  "code": 110,
+                  "items": [
+                    {
+                      "name": "Motor car and jeep",
+                      "code": 274
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Motorcycles",
+              "code": 52,
+              "subClasses": [
+                {
+                  "name": "Motor cycle and scooter",
+                  "code": 111,
+                  "items": [
+                    {
+                      "name": "Motor cycle and scooter",
+                      "code": 275
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Bicycles",
+              "code": 53,
+              "subClasses": [
+                {
+                  "name": "Bicycle",
+                  "code": 112,
+                  "items": [
+                    {
+                      "name": "Bicycle",
+                      "code": 276
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Operation of personal transport equipment",
+          "code": 23,
+          "classes": [
+            {
+              "name": "Parts and accessories for personal transport equipment",
+              "code": 54,
+              "subClasses": [
+                {
+                  "name": "Tyres and tubes",
+                  "code": 113,
+                  "items": [
+                    {
+                      "name": "Tyres and tubes",
+                      "code": 277
+                    }
+                  ]
+                },
+                {
+                  "name": "Parts for personal transport equipment",
+                  "code": 114,
+                  "items": [
+                    {
+                      "name": "Other transport equipment",
+                      "code": 278
+                    }
+                  ]
+                },
+                {
+                  "name": "Accessories for personal transport equipment",
+                  "code": 115,
+                  "items": [
+                    {
+                      "name": "Helmet",
+                      "code": 279
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Fuels and lubricants for personal transport equipment",
+              "code": 55,
+              "subClasses": [
+                {
+                  "name": "Diesel",
+                  "code": 116,
+                  "items": [
+                    {
+                      "name": "Diesel",
+                      "code": 280
+                    }
+                  ]
+                },
+                {
+                  "name": "Petrol",
+                  "code": 117,
+                  "items": [
+                    {
+                      "name": "Petrol",
+                      "code": 281
+                    }
+                  ]
+                },
+                {
+                  "name": "Other fuels for personal transport equipment",
+                  "code": 118,
+                  "items": [
+                    {
+                      "name": "Other natural gas (CNG)",
+                      "code": 282
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Passenger transport services",
+          "code": 24,
+          "classes": [
+            {
+              "name": "Passenger transport by railway",
+              "code": 56,
+              "subClasses": [
+                {
+                  "name": "Passenger transport by train",
+                  "code": 119,
+                  "items": [
+                    {
+                      "name": "Rail fare",
+                      "code": 283
+                    }
+                  ]
+                },
+                {
+                  "name": "Passenger transport by rapid transit and tram",
+                  "code": 120,
+                  "items": [
+                    {
+                      "name": "Bus/tram fare: occasional",
+                      "code": 284
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Passenger transport by road",
+              "code": 57,
+              "subClasses": [
+                {
+                  "name": "Passenger transport by bus and coach",
+                  "code": 121,
+                  "items": [
+                    {
+                      "name": "Bus/tram fare for commuting to work: daily",
+                      "code": 285
+                    },
+                    {
+                      "name": "Bus fare for commuting to work: periodic",
+                      "code": 286
+                    }
+                  ]
+                },
+                {
+                  "name": "Passenger transport by taxi and hired vehicle with driver",
+                  "code": 122,
+                  "items": [
+                    {
+                      "name": "Taxi fare",
+                      "code": 287
+                    },
+                    {
+                      "name": "Car/bus hired for ceremonial occasion, picnic, etc",
+                      "code": 288
+                    }
+                  ]
+                },
+                {
+                  "name": "Passenger transport for students to and from school",
+                  "code": 123,
+                  "items": [
+                    {
+                      "name": "Bus fare for school, college: periodic",
+                      "code": 289
+                    },
+                    {
+                      "name": "Bus /tram fare for school, college: daily",
+                      "code": 290
+                    }
+                  ]
+                },
+                {
+                  "name": "Other passenger transport by road",
+                  "code": 124,
+                  "items": [
+                    {
+                      "name": "Auto-rickshaw/e-rickshaw fare",
+                      "code": 291
+                    },
+                    {
+                      "name": "Rickshaw fare",
+                      "code": 292
+                    },
+                    {
+                      "name": "Other conveyance expenses",
+                      "code": 293
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Passenger transport by air",
+              "code": 58,
+              "subClasses": [
+                {
+                  "name": "Passenger transport by air, domestic",
+                  "code": 125,
+                  "items": [
+                    {
+                      "name": "Airfare",
+                      "code": 294
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Passenger transport by sea and inland waterway",
+              "code": 59,
+              "subClasses": [
+                {
+                  "name": "Passenger transport by sea and inland waterway",
+                  "code": 126,
+                  "items": [
+                    {
+                      "name": "Steamer, boat fare",
+                      "code": 295
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Transport services for goods",
+          "code": 25,
+          "classes": [
+            {
+              "name": "Postal and courier services",
+              "code": 60,
+              "subClasses": [
+                {
+                  "name": "Courier and parcel delivery services",
+                  "code": 127,
+                  "items": [
+                    {
+                      "name": "Postage, couriers and money order",
+                      "code": 296
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Information and communication",
+      "code": 8,
+      "groups": [
+        {
+          "name": "Information and communication equipment",
+          "code": 26,
+          "classes": [
+            {
+              "name": "Telephone instrument (landline)",
+              "code": 61,
+              "subClasses": [
+                {
+                  "name": "Telephone instrument (landline)",
+                  "code": 128,
+                  "items": [
+                    {
+                      "name": "Telephone instrument (landline)",
+                      "code": 297
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Mobile handset",
+              "code": 62,
+              "subClasses": [
+                {
+                  "name": "Mobile handset",
+                  "code": 129,
+                  "items": [
+                    {
+                      "name": "Mobile handset",
+                      "code": 298
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Information processing equipment",
+              "code": 63,
+              "subClasses": [
+                {
+                  "name": "Computers, laptops and tablets including Software",
+                  "code": 130,
+                  "items": [
+                    {
+                      "name": "PC/ Laptop/ tablet and other peripherals incl. software",
+                      "code": 299
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Audio-visual devices",
+              "code": 64,
+              "subClasses": [
+                {
+                  "name": "Audio-visual devices",
+                  "code": 131,
+                  "items": [
+                    {
+                      "name": "Television",
+                      "code": 300
+                    },
+                    {
+                      "name": "Headphone, earphone, ear pod, airpod and bluetooth devices",
+                      "code": 301
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Unrecorded recording media",
+              "code": 65,
+              "subClasses": [
+                {
+                  "name": "Unrecorded recording media",
+                  "code": 132,
+                  "items": [
+                    {
+                      "name": "Pen-drive and external hard disk",
+                      "code": 302
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Information and communication services",
+          "code": 27,
+          "classes": [
+            {
+              "name": "Internet access provision services and online storage services",
+              "code": 66,
+              "subClasses": [
+                {
+                  "name": "Internet expenses",
+                  "code": 133,
+                  "items": [
+                    {
+                      "name": "Internet expenses",
+                      "code": 303
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Telephone charges: mobile and landline",
+              "code": 67,
+              "subClasses": [
+                {
+                  "name": "Telephone charges: mobile and landline",
+                  "code": 134,
+                  "items": [
+                    {
+                      "name": "Telephone charges: mobile",
+                      "code": 304
+                    },
+                    {
+                      "name": "Telephone charges: landline",
+                      "code": 305
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Other information and communication services",
+              "code": 68,
+              "subClasses": [
+                {
+                  "name": "Subscriptions to streaming services",
+                  "code": 135,
+                  "items": [
+                    {
+                      "name": "Cable TV/DTH/set top box",
+                      "code": 306
+                    },
+                    {
+                      "name": "Online media service provider/streaming services",
+                      "code": 307
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Recreation, sport and culture",
+      "code": 9,
+      "groups": [
+        {
+          "name": "Recreational durables",
+          "code": 28,
+          "classes": [
+            {
+              "name": "Photographic and cinematographic equipment and optical instruments",
+              "code": 69,
+              "subClasses": [
+                {
+                  "name": "Camera and photographic equipment",
+                  "code": 136,
+                  "items": [
+                    {
+                      "name": "Camera and photographic equipment",
+                      "code": 308
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Other recreational goods",
+          "code": 29,
+          "classes": [
+            {
+              "name": "Games, toys and hobby-related articles",
+              "code": 70,
+              "subClasses": [
+                {
+                  "name": "Other goods for recreation",
+                  "code": 137,
+                  "items": [
+                    {
+                      "name": "Other goods for recreation",
+                      "code": 309
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sporting, camping and open-air recreation equipment",
+              "code": 71,
+              "subClasses": [
+                {
+                  "name": "Sporting equipment",
+                  "code": 138,
+                  "items": [
+                    {
+                      "name": "Sports goods",
+                      "code": 310
+                    },
+                    {
+                      "name": "Exercise equipment",
+                      "code": 311
+                    },
+                    {
+                      "name": "Other sports goods",
+                      "code": 312
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Garden products and pets",
+          "code": 30,
+          "classes": [
+            {
+              "name": "Garden products, plants and flowers",
+              "code": 72,
+              "subClasses": [
+                {
+                  "name": "Plants, seeds and flowers",
+                  "code": 139,
+                  "items": [
+                    {
+                      "name": "Flower (fresh)",
+                      "code": 313
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pets and pet products",
+              "code": 73,
+              "subClasses": [
+                {
+                  "name": "Pets",
+                  "code": 140,
+                  "items": [
+                    {
+                      "name": "Pet animals",
+                      "code": 314
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Recreational services",
+          "code": 31,
+          "classes": [
+            {
+              "name": "Recreational and sporting services",
+              "code": 74,
+              "subClasses": [
+                {
+                  "name": "Recreational and leisure services",
+                  "code": 141,
+                  "items": [
+                    {
+                      "name": "Other entertainment (mela, fair, picnic, etc.)",
+                      "code": 315
+                    }
+                  ]
+                },
+                {
+                  "name": "Services associated with the practice of sports",
+                  "code": 142,
+                  "items": [
+                    {
+                      "name": "Club, gym, swimming fees and other subscriptions",
+                      "code": 316
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cultural goods",
+          "code": 32,
+          "classes": [
+            {
+              "name": "Musical instruments",
+              "code": 75,
+              "subClasses": [
+                {
+                  "name": "Musical instruments",
+                  "code": 143,
+                  "items": [
+                    {
+                      "name": "Musical instruments",
+                      "code": 317
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cultural services",
+          "code": 33,
+          "classes": [
+            {
+              "name": "Services provided by cinemas, theatres and concert venues",
+              "code": 76,
+              "subClasses": [
+                {
+                  "name": "Cinema, theatre",
+                  "code": 144,
+                  "items": [
+                    {
+                      "name": "Cinema, theatre",
+                      "code": 318
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Photographic services",
+              "code": 77,
+              "subClasses": [
+                {
+                  "name": "Photography",
+                  "code": 145,
+                  "items": [
+                    {
+                      "name": "Photography",
+                      "code": 319
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Newspapers, books and stationery",
+          "code": 34,
+          "classes": [
+            {
+              "name": "Books",
+              "code": 78,
+              "subClasses": [
+                {
+                  "name": "Educational books and textbooks",
+                  "code": 146,
+                  "items": [
+                    {
+                      "name": "Books/ journals",
+                      "code": 320
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Newspapers and periodicals",
+              "code": 79,
+              "subClasses": [
+                {
+                  "name": "Newspapers and periodicals",
+                  "code": 147,
+                  "items": [
+                    {
+                      "name": "Newspapers and periodicals",
+                      "code": 321
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Stationery and drawing materials",
+              "code": 80,
+              "subClasses": [
+                {
+                  "name": "Stationery and drawing materials",
+                  "code": 148,
+                  "items": [
+                    {
+                      "name": "Stationery",
+                      "code": 322
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Education services",
+      "code": 10,
+      "groups": [
+        {
+          "name": "Early childhood and primary education",
+          "code": 35,
+          "classes": [
+            {
+              "name": "Early childhood and primary education",
+              "code": 81,
+              "subClasses": [
+                {
+                  "name": "Primary education",
+                  "code": 149,
+                  "items": [
+                    {
+                      "name": "Tuition fees (Primary/Upper Primary class)",
+                      "code": 323
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Secondary education",
+          "code": 36,
+          "classes": [
+            {
+              "name": "Secondary education",
+              "code": 82,
+              "subClasses": [
+                {
+                  "name": "Secondary education",
+                  "code": 150,
+                  "items": [
+                    {
+                      "name": "Tuition fees (Secondary/Upper Secondary class)",
+                      "code": 324
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Higher education",
+          "code": 37,
+          "classes": [
+            {
+              "name": "Higher education",
+              "code": 83,
+              "subClasses": [
+                {
+                  "name": "Higher education",
+                  "code": 151,
+                  "items": [
+                    {
+                      "name": "Tuition fees (Higher education)",
+                      "code": 325
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Education not defined by level",
+          "code": 38,
+          "classes": [
+            {
+              "name": "Education not defined by level",
+              "code": 84,
+              "subClasses": [
+                {
+                  "name": "Private tutor/ coaching centre and other educational expenses",
+                  "code": 152,
+                  "items": [
+                    {
+                      "name": "Private tutor/ coaching centre",
+                      "code": 326
+                    },
+                    {
+                      "name": "Other educational expenses",
+                      "code": 327
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Restaurants and accommodation services",
+      "code": 11,
+      "groups": [
+        {
+          "name": "Food and beverage serving services",
+          "code": 39,
+          "classes": [
+            {
+              "name": "Restaurants, cafés and the like",
+              "code": 85,
+              "subClasses": [
+                {
+                  "name": "Restaurants, cafés and the like – with full service",
+                  "code": 153,
+                  "items": [
+                    {
+                      "name": "Cooked meals",
+                      "code": 328
+                    }
+                  ]
+                },
+                {
+                  "name": "Restaurants, cafés and the like – with limited service",
+                  "code": 154,
+                  "items": [
+                    {
+                      "name": "Cooked snacks",
+                      "code": 329
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Accommodation services",
+          "code": 40,
+          "classes": [
+            {
+              "name": "Accommodation services",
+              "code": 86,
+              "subClasses": [
+                {
+                  "name": "Hotels, motels, inns and similar accommodation services",
+                  "code": 155,
+                  "items": [
+                    {
+                      "name": "Hotel lodging charges",
+                      "code": 330
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Personal care, social protection and miscellaneous goods and services",
+      "code": 12,
+      "groups": [
+        {
+          "name": "Personal care",
+          "code": 41,
+          "classes": [
+            {
+              "name": "Appliances for personal care",
+              "code": 87,
+              "subClasses": [
+                {
+                  "name": "Purchase of appliances for personal care",
+                  "code": 156,
+                  "items": [
+                    {
+                      "name": "Other personal goods",
+                      "code": 331
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Other appliances, articles and products for personal care",
+              "code": 88,
+              "subClasses": [
+                {
+                  "name": "Other appliances, articles and products for personal care",
+                  "code": 157,
+                  "items": [
+                    {
+                      "name": "Toilet soap, body-wash, hand-wash, shower gel and face-wash",
+                      "code": 332
+                    },
+                    {
+                      "name": "Perfume, body spray, deodorant and roll-ons",
+                      "code": 333
+                    },
+                    {
+                      "name": "Powder, cream, body lotion and moisturizers",
+                      "code": 334
+                    },
+                    {
+                      "name": "Toothpaste, mouthwash and toothbrush",
+                      "code": 335
+                    },
+                    {
+                      "name": "Hair oil and hair colour",
+                      "code": 336
+                    },
+                    {
+                      "name": "Shampoo, conditioner, hair serum/gel and hair cream",
+                      "code": 337
+                    },
+                    {
+                      "name": "Sanitary napkins",
+                      "code": 338
+                    },
+                    {
+                      "name": "Baby products",
+                      "code": 339
+                    },
+                    {
+                      "name": "Shaving blades, shaving stick and razor",
+                      "code": 340
+                    },
+                    {
+                      "name": "Shaving cream, shaving foam, aftershave lotion and aftershave balm",
+                      "code": 341
+                    },
+                    {
+                      "name": "Sanitizer",
+                      "code": 342
+                    },
+                    {
+                      "name": "Weighing machine",
+                      "code": 343
+                    },
+                    {
+                      "name": "Other beauty products",
+                      "code": 344
+                    },
+                    {
+                      "name": "Other toilet articles",
+                      "code": 345
+                    },
+                    {
+                      "name": "Other hair products",
+                      "code": 346
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hairdressing salons and personal grooming establishments",
+              "code": 89,
+              "subClasses": [
+                {
+                  "name": "Personal grooming treatments",
+                  "code": 158,
+                  "items": [
+                    {
+                      "name": "Barber, beautician and spas",
+                      "code": 347
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Other personal effects",
+          "code": 42,
+          "classes": [
+            {
+              "name": "Jewellery and watches",
+              "code": 90,
+              "subClasses": [
+                {
+                  "name": "Purchase of jewellery and watches",
+                  "code": 159,
+                  "items": [
+                    {
+                      "name": "Gold /diamond /platinum jewellery",
+                      "code": 348
+                    },
+                    {
+                      "name": "Silver jewellery",
+                      "code": 349
+                    },
+                    {
+                      "name": "Clock, watch, smartwatch and fitness tracker",
+                      "code": 350
+                    },
+                    {
+                      "name": "Jewels, pearls, precious stones",
+                      "code": 351
+                    },
+                    {
+                      "name": "Other jewellery and ornaments",
+                      "code": 352
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Other personal effects n.e.c.",
+              "code": 91,
+              "subClasses": [
+                {
+                  "name": "Travel goods, baby articles and other personal effects n.e.c.",
+                  "code": 160,
+                  "items": [
+                    {
+                      "name": "Back-pack, handbags, vanity bags, purse and clutch",
+                      "code": 353
+                    },
+                    {
+                      "name": "Suitcase, trolley bag, duffle bag and trunk",
+                      "code": 354
+                    },
+                    {
+                      "name": "Umbrella and Raincoat",
+                      "code": 355
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Other services",
+          "code": 43,
+          "classes": [
+            {
+              "name": "Other services",
+              "code": 92,
+              "subClasses": [
+                {
+                  "name": "Religious services",
+                  "code": 161,
+                  "items": [
+                    {
+                      "name": "Priest",
+                      "code": 356
+                    }
+                  ]
+                },
+                {
+                  "name": "Other services n.e.c.",
+                  "code": 162,
+                  "items": [
+                    {
+                      "name": "Photocopying charges",
+                      "code": 357
+                    },
+                    {
+                      "name": "Legal expenses",
+                      "code": 358
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

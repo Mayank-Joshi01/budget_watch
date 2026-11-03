@@ -1,0 +1,349 @@
+{
+  "metadata": {
+    "source": "Government of India — Union Government Accounts at a Glance",
+    "as_of": "2026-09-30",
+    "reporting_period": "Up to September 2026",
+    "financial_year": "2026-27",
+    "unit": "₹ crore",
+    "actuals_status": "Unaudited provisional figures",
+    "coppy_definition": "Corresponding Period of the Previous Year",
+    "note": "Percentages and values are transcribed from the supplied source. COPPY values in parentheses are stored as numeric percentages/values without parentheses."
+  },
+  "sections": {
+    "account_summary": {
+      "chart_suggestions": [
+        "budget_vs_actuals_bar",
+        "actuals_as_percent_of_budget_bar",
+        "coppy_comparison_bar"
+      ],
+      "metrics": [
+        {
+          "id": "revenue_receipts",
+          "name": "Revenue Receipts",
+          "budget_estimates": 3533150,
+          "actuals": 1756820,
+          "actuals_percent_of_budget": 49.7,
+          "coppy_percent": 49.6
+        },
+        {
+          "id": "tax_revenue_net",
+          "name": "Tax Revenue (Net)",
+          "budget_estimates": 2866922,
+          "actuals": 1276088,
+          "actuals_percent_of_budget": 44.5,
+          "coppy_percent": 43.3
+        },
+        {
+          "id": "non_tax_revenue",
+          "name": "Non-Tax Revenue",
+          "budget_estimates": 666228,
+          "actuals": 480732,
+          "actuals_percent_of_budget": 72.2,
+          "coppy_percent": 79.9
+        },
+        {
+          "id": "non_debt_capital_receipts",
+          "name": "Non-Debt Capital Receipts",
+          "budget_estimates": 118397,
+          "actuals": 78602,
+          "actuals_percent_of_budget": 66.4,
+          "coppy_percent": 45.8
+        },
+        {
+          "id": "recovery_of_loans",
+          "name": "Recovery of Loans",
+          "budget_estimates": 38397,
+          "actuals": 16443,
+          "actuals_percent_of_budget": 42.8,
+          "coppy_percent": 39.1
+        },
+        {
+          "id": "other_receipts",
+          "name": "Other Receipts",
+          "budget_estimates": 80000,
+          "actuals": 62159,
+          "actuals_percent_of_budget": 77.7,
+          "coppy_percent": 49.8
+        },
+        {
+          "id": "total_receipts",
+          "name": "Total Receipts",
+          "budget_estimates": 3651547,
+          "actuals": 1835422,
+          "actuals_percent_of_budget": 50.3,
+          "coppy_percent": 49.5
+        },
+        {
+          "id": "revenue_expenditure",
+          "name": "Revenue Expenditure",
+          "budget_estimates": 4125494,
+          "actuals": 1895288,
+          "actuals_percent_of_budget": 45.9,
+          "coppy_percent": 43.7
+        },
+        {
+          "id": "interest_payments",
+          "name": "Interest Payments",
+          "budget_estimates": 1403972,
+          "actuals": 646010,
+          "actuals_percent_of_budget": 46.0,
+          "coppy_percent": 45.3,
+          "is_submetric": true
+        },
+        {
+          "id": "capital_expenditure",
+          "name": "Capital Expenditure",
+          "budget_estimates": 1221821,
+          "actuals": 654547,
+          "actuals_percent_of_budget": 53.6,
+          "coppy_percent": 51.8
+        },
+        {
+          "id": "loans_disbursed",
+          "name": "Loans Disbursed",
+          "budget_estimates": 278780,
+          "actuals": 151220,
+          "actuals_percent_of_budget": 54.2,
+          "coppy_percent": 52.6,
+          "is_submetric": true
+        },
+        {
+          "id": "total_expenditure",
+          "name": "Total Expenditure",
+          "budget_estimates": 5347315,
+          "actuals": 2549835,
+          "actuals_percent_of_budget": 47.7,
+          "coppy_percent": 45.5
+        },
+        {
+          "id": "fiscal_deficit",
+          "name": "Fiscal Deficit",
+          "budget_estimates": 1695768,
+          "actuals": 714413,
+          "actuals_percent_of_budget": 42.1,
+          "coppy_percent": 36.5
+        },
+        {
+          "id": "revenue_deficit",
+          "name": "Revenue Deficit",
+          "budget_estimates": 592344,
+          "actuals": 138468,
+          "actuals_percent_of_budget": 23.4,
+          "coppy_percent": 5.2
+        },
+        {
+          "id": "primary_deficit",
+          "name": "Primary Deficit",
+          "budget_estimates": 291796,
+          "actuals": 68403,
+          "actuals_percent_of_budget": 23.4,
+          "coppy_percent": -1.7
+        }
+      ]
+    },
+    "deficit_financing": {
+      "chart_suggestions": [
+        "budget_vs_actuals_bar",
+        "actuals_by_financing_source_bar",
+        "coppy_comparison_bar"
+      ],
+      "metrics": [
+        {
+          "id": "external_financing",
+          "name": "External Financing",
+          "budget_estimates": 15385.08,
+          "actuals": 2188.72,
+          "actuals_percent_of_budget": 14,
+          "coppy_percent": 2
+        },
+        {
+          "id": "domestic_financing",
+          "name": "Domestic Financing",
+          "budget_estimates": 1680382.63,
+          "actuals": 712224.24,
+          "actuals_percent_of_budget": 42,
+          "coppy_percent": 37
+        },
+        {
+          "id": "market_borrowings",
+          "name": "Market Borrowings",
+          "budget_estimates": 1303209.79,
+          "actuals": 538242.0,
+          "actuals_percent_of_budget": 41,
+          "coppy_percent": 33,
+          "parent_id": "domestic_financing"
+        },
+        {
+          "id": "securities_small_savings",
+          "name": "Securities Against Small Savings",
+          "budget_estimates": 386772.36,
+          "actuals": 95974.72,
+          "actuals_percent_of_budget": 25,
+          "coppy_percent": 28,
+          "parent_id": "domestic_financing"
+        },
+        {
+          "id": "state_provident_funds",
+          "name": "State Provident Funds",
+          "budget_estimates": 3500.0,
+          "actuals": -7658.88,
+          "actuals_percent_of_budget": -219,
+          "coppy_percent": -127,
+          "parent_id": "domestic_financing"
+        },
+        {
+          "id": "special_deposits",
+          "name": "Special Deposits",
+          "budget_estimates": 0.0,
+          "actuals": 997.89,
+          "actuals_percent_of_budget": null,
+          "coppy_percent": null,
+          "parent_id": "domestic_financing"
+        },
+        {
+          "id": "national_small_savings_fund",
+          "name": "National Small Saving Fund",
+          "budget_estimates": 0.0,
+          "actuals": 227135.06,
+          "actuals_percent_of_budget": null,
+          "coppy_percent": null,
+          "parent_id": "domestic_financing"
+        },
+        {
+          "id": "savings_deposits_certificates",
+          "name": "Savings Deposit and Certificates",
+          "budget_estimates": 266427.17,
+          "actuals": 232128.87,
+          "actuals_percent_of_budget": 87,
+          "coppy_percent": 75,
+          "parent_id": "national_small_savings_fund"
+        },
+        {
+          "id": "public_provident_funds",
+          "name": "Public Provident Funds",
+          "budget_estimates": 92151.51,
+          "actuals": -1109.69,
+          "actuals_percent_of_budget": -1,
+          "coppy_percent": -1,
+          "parent_id": "national_small_savings_fund"
+        },
+        {
+          "id": "investment_in_securities",
+          "name": "Investment in Securities",
+          "budget_estimates": -350605.16,
+          "actuals": -81248.54,
+          "actuals_percent_of_budget": 23,
+          "coppy_percent": 27,
+          "parent_id": "national_small_savings_fund"
+        },
+        {
+          "id": "nssf_income_expenditure",
+          "name": "Income/Expenditure of NSSF",
+          "budget_estimates": -7973.52,
+          "actuals": 77364.42,
+          "actuals_percent_of_budget": -970,
+          "coppy_percent": -4565,
+          "parent_id": "national_small_savings_fund"
+        },
+        {
+          "id": "others_financing",
+          "name": "Others",
+          "budget_estimates": -45801.48,
+          "actuals": 192394.81,
+          "actuals_percent_of_budget": -420,
+          "coppy_percent": 371,
+          "parent_id": "domestic_financing"
+        },
+        {
+          "id": "cash_balance",
+          "name": "Cash Balance Decrease(+)/Increase(-)",
+          "budget_estimates": 32701.96,
+          "actuals": 5407.64,
+          "actuals_percent_of_budget": 17,
+          "coppy_percent": 184,
+          "parent_id": "domestic_financing"
+        },
+        {
+          "id": "surplus_cash_investment_redemption",
+          "name": "Investment(-)/Redemption(+) of Surplus Cash",
+          "budget_estimates": null,
+          "actuals": -340269.0,
+          "actuals_percent_of_budget": null,
+          "coppy_percent": null,
+          "parent_id": "domestic_financing"
+        },
+        {
+          "id": "ways_means_advances",
+          "name": "Ways & Means Advances",
+          "budget_estimates": null,
+          "actuals": 0.0,
+          "actuals_percent_of_budget": null,
+          "coppy_percent": null,
+          "parent_id": "domestic_financing"
+        },
+        {
+          "id": "total_financing",
+          "name": "Total Financing",
+          "budget_estimates": 1695767.71,
+          "actuals": 714412.96,
+          "actuals_percent_of_budget": 42,
+          "coppy_percent": 37
+        }
+      ]
+    },
+    "major_subsidies": {
+      "chart_suggestions": [
+        "budget_vs_actuals_bar",
+        "subsidy_actuals_share_pie",
+        "coppy_comparison_bar"
+      ],
+      "metrics": [
+        {
+          "id": "food_subsidy",
+          "name": "Food Subsidy",
+          "budget_estimates": 227629.0,
+          "actuals": 102505.54,
+          "coppy_actuals": 88375.35,
+          "actuals_percent_of_budget": 45,
+          "coppy_percent": 43
+        },
+        {
+          "id": "nutrient_based_fertilizers_subsidy",
+          "name": "Nutrient Based Fertilizers Subsidy",
+          "budget_estimates": 54000.0,
+          "actuals": 33664.35,
+          "coppy_actuals": 29301.49,
+          "actuals_percent_of_budget": 62,
+          "coppy_percent": 60
+        },
+        {
+          "id": "urea_subsidy",
+          "name": "Urea Subsidy",
+          "budget_estimates": 116799.0,
+          "actuals": 85585.99,
+          "coppy_actuals": 77973.67,
+          "actuals_percent_of_budget": 73,
+          "coppy_percent": 66
+        },
+        {
+          "id": "petroleum",
+          "name": "Petroleum",
+          "budget_estimates": 12084.51,
+          "actuals": 1149.09,
+          "coppy_actuals": 6716.68,
+          "actuals_percent_of_budget": 10,
+          "coppy_percent": 56
+        },
+        {
+          "id": "total_major_subsidies",
+          "name": "Total Major Subsidies",
+          "budget_estimates": 410512.51,
+          "actuals": 222904.97,
+          "coppy_actuals": 202367.19,
+          "actuals_percent_of_budget": 54,
+          "coppy_percent": 53
+        }
+      ]
+    }
+  }
+}

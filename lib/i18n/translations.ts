@@ -122,6 +122,35 @@ const hindiTranslations: Record<string, string> = {
   "With valid budget data": "वैध बजट डेटा सहित",
   "Median department budget": "विभागीय बजट का माध्यिका",
   "Middle allocation by department": "विभागवार मध्य आवंटन",
+  "Fiscal position": "राजकोषीय स्थिति",
+  "Government deficit snapshot": "सरकारी घाटे का सारांश",
+  "Budget estimates compared with actuals": "बजट अनुमानों की वास्तविक आंकड़ों से तुलना",
+  "No utilization percentage available": "उपयोग प्रतिशत उपलब्ध नहीं है",
+  "of budget estimate": "बजट अनुमान का",
+  "Spending snapshot": "व्यय सारांश",
+  "Where does ₹100 of government spending go?": "सरकारी खर्च के ₹100 कहाँ जाते हैं?",
+  "Major mapped categories": "प्रमुख संबद्ध श्रेणियाँ",
+  "Per ₹100": "प्रति ₹100",
+  "spending": "व्यय",
+  "Selected category": "चयनित श्रेणी",
+  "Compare planned spending with actual spending": "योजनाबद्ध व्यय की वास्तविक व्यय से तुलना करें",
+  "Compare states for one financial year": "एक वित्तीय वर्ष के लिए राज्यों की तुलना करें",
+  "Government income and expenditure": "सरकारी आय और व्यय",
+  "Government receipts": "सरकारी प्राप्तियाँ",
+  "Latest year": "नवीनतम वर्ष",
+  "Money received by the government": "सरकार को प्राप्त धन",
+  "Not the official fiscal deficit": "आधिकारिक राजकोषीय घाटा नहीं",
+  "Select class": "वर्ग चुनें",
+  "Select division": "उपखंड चुनें",
+  "Select group": "समूह चुनें",
+  "Select item": "वस्तु चुनें",
+  "Select sub class": "उपवर्ग चुनें",
+  "Spending minus receipts": "व्यय घटा प्राप्तियाँ",
+  "Total expenditure": "कुल व्यय",
+  "Annual PLFS unemployment rate · All India": "वार्षिक PLFS बेरोज़गारी दर · अखिल भारतीय",
+  "Male vs Female · All India · Annual PLFS": "पुरुष बनाम महिला · अखिल भारतीय · वार्षिक PLFS",
+  "Worker Population Ratio · Person · Rural + Urban": "श्रमिक जनसंख्या अनुपात · व्यक्ति · ग्रामीण + शहरी",
+  "Quarterly real GDP growth rate · recent year": "तिमाही वास्तविक जीडीपी वृद्धि दर · नवीनतम वर्ष",
   "Public finance · India": "सार्वजनिक वित्त · भारत",
   "Explore how government budgets flow from departments into schemes and change across financial years.": "जानें कि सरकारी बजट विभागों से योजनाओं तक कैसे पहुँचता है और वित्तीय वर्षों में कैसे बदलता है।",
   "Amounts are shown in ₹ crore. Allocation changes describe budget movements only and do not imply performance or outcomes.": "राशियाँ ₹ करोड़ में दिखाई गई हैं। आवंटन में बदलाव केवल बजट के उतार-चढ़ाव दर्शाते हैं, प्रदर्शन या परिणाम नहीं।",
@@ -667,6 +696,11 @@ export function translateText(language: Language, value: string): string {
             dynamicMatch = content.match(/^(\d+)–(\d+) of (\d+) departments$/);
             if (dynamicMatch) {
               translated = `${dynamicMatch[1]}–${dynamicMatch[2]} ${translate(language, "of")} ${dynamicMatch[3]} ${translate(language, "departments")}`;
+            } else {
+              dynamicMatch = content.match(/^(.+) · ₹ crore$/);
+              if (dynamicMatch) {
+                translated = `${dynamicMatch[1]} · ${translate(language, "₹ crore")}`;
+              }
             }
           }
         }
